@@ -1,0 +1,911 @@
+movie	Play recorded movie frames
+noanimate	Change EraseMode of all objects to normal
+drawnow	Flush event queue and update figure window
+refreshdata	Refresh data in graph when data source is specified
+frame2im	Return image data associated with movie frame
+getframe	Capture movie frame
+im2frame	Convert image to movie frame
+comet	2-D comet plot
+comet3	3-D comet plot
+title	Add title to current axes
+xlabel	Label x-axis
+ylabel	Label y-axis
+zlabel	Label z-axis
+clabel	Contour plot elevation labels
+datetick	Date formatted tick labels
+texlabel	Produce TeX format from character string
+legend	Graph legend for lines and patches
+colorbar	Colorbar showing color scale
+xlim	Set or query x-axis limits
+ylim	Set or query y-axis limits
+zlim	Set or query z-axis limits
+box	Axes border
+grid	Grid lines for 2-D and 3-D plots
+daspect	Set or query axes data aspect ratio
+pbaspect	Set or query plot box aspect ratio
+axes	Create axes graphics object
+axis	Axis scaling and appearance
+subplot	Create axes in tiled positions
+hold	Retain current graph when adding new graphs
+gca	Current axes handle
+cla	Clear current axes
+annotation	Create annotation objects
+text	Create text object in current axes
+legend	Graph legend for lines and patches
+title	Add title to current axes
+xlabel	Label x-axis
+ylabel	Label y-axis
+zlabel	Label z-axis
+datacursormode	Enable, disable, and manage interactive data cursor mode
+ginput	Graphical input from mouse or cursor
+gtext	Mouse placement of text in 2-D view
+colormap	Set and get current colormap
+colormapeditor	Open colormap editor
+colorbar	Colorbar showing color scale
+brighten	Brighten or darken colormap
+contrast	Grayscale colormap for contrast enhancement
+shading	Set color shading properties
+graymon	Set default figure properties for grayscale monitors
+caxis	Color axis scaling
+hsv2rgb	Convert HSV colormap to RGB colormap
+rgb2hsv	Convert RGB colormap to HSV colormap
+rgbplot	Plot colormap
+spinmap	Spin colormap
+colordef	Set default property values to display different color schemes
+whitebg	Change axes background color
+hidden	Remove hidden lines from mesh plot
+pan	Pan view of graph interactively
+reset	Reset graphics object properties to their defaults
+rotate	Rotate object about specified origin and direction
+rotate3d	Rotate 3-D view using mouse
+selectmoveresize	Select, move, resize, or copy axes and uicontrol graphics objects
+zoom	Turn zooming on or off or magnify by factor
+datacursormode	Enable, disable, and manage interactive data cursor mode
+figurepalette	Show or hide Figure Palette
+plotbrowser	Show or hide figure Plot Browser
+plotedit	Interactively edit and annotate plots
+plottools	Show or hide plot tools
+propertyeditor	Show or hide Property Editor
+showplottool	Show or hide figure plot tool
+brush	Interactively mark, delete, modify, and save observations in graphs
+datacursormode	Enable, disable, and manage interactive data cursor mode
+linkdata	Automatically update graphs when variables change
+refreshdata	Refresh data in graph when data source is specified
+view	Viewpoint specification
+makehgtform	Create 4-by-4 transform matrix
+viewmtx	View transformation matrices
+cameratoolbar	Control camera toolbar programmatically
+campan	Rotate camera target around camera position
+camzoom	Zoom in and out on scene
+camdolly	Move camera position and target
+camlookat	Position camera to view object or group of objects
+camorbit	Rotate camera position around camera target
+campos	Set or query camera position
+camproj	Set or query projection type
+camroll	Rotate camera about view axis
+camtarget	Set or query location of camera target
+camup	Set or query camera up vector
+camva	Set or query camera view angle
+camlight	Create or move light object in camera coordinates
+light	Create light object
+lightangle	Create or position light object in spherical coordinates
+lighting	Specify lighting algorithm
+diffuse	Calculate diffuse reflectance
+material	Control reflectance properties of surfaces and patches
+specular	Calculate specular reflectance
+alim	Set or query axes alpha limits
+alpha	Set transparency properties for objects in current axes
+alphamap	Specify figure alphamap (transparency)
+image	Display image object
+imagesc	Scale data and display image object
+imread	Read image from graphics file
+imwrite	Write image to graphics file
+imfinfo	Information about graphics file
+imformats	Manage image file format registry
+frame2im	Return image data associated with movie frame
+im2frame	Convert image to movie frame
+im2java	Convert image to Java image
+ind2rgb	Convert indexed image to RGB image
+rgb2ind	Convert RGB image to indexed image
+imapprox	Approximate indexed image by reducing number of colors
+dither	Convert image, increasing apparent color resolution by dithering
+cmpermute	Rearrange colors in colormap
+cmunique	Eliminate duplicate colors in colormap; convert grayscale or truecolor image to indexed image
+print	Print figure or save to file
+printopt	Configure printer defaults
+printdlg	Print dialog box
+printpreview	Preview figure to print
+hgexport	Export figure
+saveas	Save figure or Simulink block diagram using specified format
+orient	Hardcopy paper orientation
+pagesetupdlg	Page setup dialog box
+gca	Current axes handle
+gcf	Current figure handle
+gcbf	Handle of figure containing object whose callback is executing
+gcbo	Handle of object whose callback is executing
+gco	Handle of current object
+ancestor	Ancestor of graphics object
+allchild	Find all children of specified objects
+findall	Find all graphics objects
+findfigs	Find visible offscreen figures
+findobj	Locate graphics objects with specific properties
+ishandle	Test for valid graphics object handle
+copyobj	Copy graphics objects and their descendants
+delete	Remove files or graphics objects
+get	Query Handle Graphics object properties
+set	Set Handle Graphics object properties
+propedit	Open Property Editor
+root object	Root
+figure	Create figure graphics object
+axes	Create axes graphics object
+image	Display image object
+light	Create light object
+line	Create line object
+patch	Create one or more filled polygons
+rectangle	Create 2-D rectangle object
+surface	Create surface object
+text	Create text object in current axes
+annotation	Create annotation objects
+set	Set Handle Graphics object properties
+get	Query Handle Graphics object properties
+hggroup	Create hggroup object
+hgtransform	Create hgtransform graphics object
+makehgtform	Create 4-by-4 transform matrix
+figure	Create figure graphics object
+gcf	Current figure handle
+close	Remove specified figure
+clf	Clear current figure window
+refresh	Redraw current figure
+newplot	Determine where to draw graphics objects
+shg	Show most recent graph window
+hgload	Load Handle Graphics object hierarchy from file
+hgsave	Save Handle Graphics object hierarchy to file
+saveas	Save figure or Simulink block diagram using specified format
+closereq	Default figure close request function
+dragrect	Drag rectangles with mouse
+drawnow	Flush event queue and update figure window
+rbbox	Create rubberband box for area selection
+opengl	Control OpenGL rendering
+axes	Create axes graphics object
+hold	Retain current graph when adding new graphs
+ishold	Current hold state
+newplot	Determine where to draw graphics objects
+linkaxes	Synchronize limits of specified 2-D axes
+linkprop	Keep same value for corresponding properties of graphics objects
+refreshdata	Refresh data in graph when data source is specified
+waitfor	Block execution and wait for event or condition
+get	Query Handle Graphics object properties
+set	Set Handle Graphics object properties
+case	Optional keyword in switch statement
+otherwise	Optional keyword in switch statement
+else	Optional keyword within an if statement
+elseif	Optional keyword within an if statement
+edit	Edit or create file
+input	Request user input
+publish	Generate view of MATLAB file in specified format
+notebook	Open MATLAB Notebook in Microsoft Word software (on Microsoft Windows platforms)
+grabcode	Extract MATLAB code from file published to HTML
+snapnow	Force snapshot of image for inclusion in published document
+script	Sequence of MATLAB statements in file
+nargin	Number of function input arguments
+nargout	Number of function output arguments
+varargin	Variable-length input argument list
+varargout	Variable-length output argument list
+narginchk	Validate number of input arguments
+nargoutchk	Validate number of output arguments
+validateattributes	Check validity of array
+validatestring	Check validity of text string
+inputParser	Parse function inputs
+inputname	Variable name of function input
+addRequired	Add required argument to Input Parser scheme
+addOptional	Add optional argument to Input Parser scheme
+addParamValue	Add parameter name and value argument to Input Parser scheme
+parse	Parse function inputs
+createCopy	Create copy of inputParser object
+nargchk	Validate number of input arguments
+persistent	Define persistent variable
+genvarname	Construct valid variable name from string
+isvarname	Determine whether input is valid variable name
+namelengthmax	Maximum identifier length
+assignin	Assign value to variable in specified workspace
+global	Declare global variables
+isglobal	Determine whether input is global variable
+datatipinfo	Produce short description of input variable
+error	Display message and abort function
+warning	Warning message
+lastwarn	Last warning message
+assert	Generate error when condition is violated
+onCleanup	Cleanup tasks upon function completion
+lasterr	Last error message
+lasterror	Last error message and related information
+dbclear	Clear breakpoints
+dbcont	Resume execution
+dbdown	Reverse workspace shift performed by dbup, while in debug mode
+dbquit	Quit debug mode
+dbstack	Function call stack
+dbstatus	List all breakpoints
+dbstep	Execute one or more lines from current breakpoint
+dbstop	Set breakpoints for debugging
+dbtype	List text file with line numbers
+dbup	Shift current workspace to workspace of caller, while in debug mode
+checkcode	Check MATLAB code files for possible problems
+keyboard	Input from keyboard
+mlintrpt	Run checkcode for file or folder, reporting results in browser
+mlint	Check MATLAB code files for possible problems
+edit	Edit or create file
+echo	Display statements during function execution
+eval	Execute MATLAB expression in text string
+evalc	Evaluate MATLAB expression with capture
+evalin	Execute MATLAB expression in specified workspace
+feval	Evaluate function
+run	Run MATLAB script
+builtin	Execute built-in function from overloaded method
+depdir	List dependent folders for function or P-file
+depfun	List dependencies of function or P-file
+mfilename	File name of currently running function
+pcode	Create protected function file
+timer	Construct timer object
+delete (timer)	Remove timer object from memory
+disp (timer)	Information about timer object
+get (timer)	Timer object properties
+isvalid (timer)	Determine whether timer object is valid
+set (timer)	Configure or display timer object properties
+start	Start timer(s) running
+startat	Start timer(s) running at specified time
+stop	Stop timer(s)
+timerfind	Find timer objects
+timerfindall	Find timer objects, including invisible objects
+wait	Wait until timer stops running
+clear	Remove items from workspace, freeing up system memory
+clearvars	Clear variables from memory
+disp	Display text or array
+load	Load data from MAT-file into workspace
+save	Save workspace variables to file
+openvar	Open workspace variable in Variables editor or other graphical editing tool
+pack	Consolidate workspace memory
+who	List variables in workspace
+whos	List variables in workspace, with sizes and types
+workspace	Open Workspace browser to manage workspace
+importdata	Load data from file
+load	Load data from MAT-file into workspace
+save	Save workspace variables to file
+matfile	Load and save parts of variables in MAT-files
+open	Open file in appropriate application
+winopen	Open file in appropriate application (Windows)
+uiimport	Import data interactively
+uigetfile	Open standard dialog box for retrieving files
+uiputfile	Open standard dialog box for saving files
+daqread	Read Data Acquisition Toolbox (.daq) file
+csvread	Read comma-separated value file
+csvwrite	Write comma-separated value file
+dlmread	Read ASCII-delimited file of numeric data into matrix
+dlmwrite	Write matrix to ASCII-delimited file
+fileread	Read contents of file into string
+textread	Read data from text file; write to multiple outputs
+textscan	Read formatted data from text file or string
+type	Display contents of file
+xlsfinfo	Determine whether file contains Microsoft Excel spreadsheet
+xlsread	Read Microsoft Excel spreadsheet file
+xlswrite	Write Microsoft Excel spreadsheet file
+wk1finfo	Determine whether file contains 1-2-3 WK1 worksheet
+wk1read	Read Lotus 1-2-3 WK1 spreadsheet file into matrix
+wk1write	Write matrix to Lotus 1-2-3 WK1 spreadsheet file
+fclose	Close one or all open files
+feof	Test for end-of-file
+ferror	Information about file I/O errors
+fgetl	Read line from file, removing newline characters
+fgets	Read line from file, keeping newline characters
+fopen	Open file, or obtain information about open files
+fprintf	Write data to text file
+fread	Read data from binary file
+frewind	Move file position indicator to beginning of open file
+fscanf	Read data from text file
+fseek	Move to specified position in file
+ftell	Position in open file
+fwrite	Write data to binary file
+exifread	Read EXIF information from JPEG and TIFF image files
+im2java	Convert image to Java image
+imfinfo	Information about graphics file
+imread	Read image from graphics file
+imwrite	Write image to graphics file
+cdfepoch	Convert MATLAB formatted dates to CDF formatted dates
+cdfinfo	Information about Common Data Format (CDF) file
+cdfread	Read data from Common Data Format (CDF) file
+cdfwrite	Write data to Common Data Format (CDF) file
+todatenum	Convert CDF epoch object to MATLAB datenum
+cdflib	Summary of Common Data Format (CDF) capabilities
+cdflib.getConstantNames	Names of Common Data Format (CDF) library constants
+cdflib.getConstantValue	Numeric value corresponding to Common Data Format (CDF) library constant
+cdflib.getFileBackward	Return current backward compatibility mode setting
+cdflib.getLibraryCopyright	Copyright notice of Common Data Format (CDF) library
+cdflib.getLibraryVersion	Library version and release information
+cdflib.getValidate	Library validation mode
+cdflib.setFileBackward	Set backward compatibility mode
+cdflib.setValidate	Specify library validation mode
+cdflib.close	Close Common Data Format (CDF) file
+cdflib.create	Create Common Data Format (CDF) file
+cdflib.delete	Delete existing Common Data Format (CDF) file
+cdflib.getCacheSize	Number of cache buffers used
+cdflib.getChecksum	Checksum mode
+cdflib.getCompression	Compression settings
+cdflib.getCompressionCacheSize	Number of compression cache buffers
+cdflib.getCopyright	Copyright notice in Common Data Format (CDF) file
+cdflib.getFormat	Format of Common Data Format (CDF) file
+cdflib.getMajority	Majority of variables
+cdflib.getName	Name of Common Data Format (CDF) file
+cdflib.getReadOnlyMode	Read-only mode
+cdflib.getStageCacheSize	Number of cache buffers for staging
+cdflib.getVersion	Common Data Format (CDF) library version and release information
+cdflib.inquire	Basic characteristics of Common Data Format (CDF) file
+cdflib.open	Open existing Common Data Format (CDF) file
+cdflib.setCacheSize	Specify number of dotCDF cache buffers
+cdflib.setChecksum	Specify checksum mode
+cdflib.setCompression	Specify compression settings
+cdflib.setCompressionCacheSize	Specify number of compression cache buffers
+cdflib.setFormat	Specify format of Common Data Format (CDF) file
+cdflib.setMajority	Specify majority of variables
+cdflib.setReadOnlyMode	Specify read-only mode
+cdflib.setStageCacheSize	Specify number of staging cache buffers for Common Data Format (CDF) file
+cdflib.closeVar	Close specified variable from multifile format Common Data Format (CDF) file
+cdflib.createVar	Create new variable
+cdflib.deleteVar	Delete variable
+cdflib.deleteVarRecords	Delete range of records from variable
+cdflib.getVarAllocRecords	Number of records allocated for variable
+cdflib.getVarBlockingFactor	Blocking factor for variable
+cdflib.getVarCacheSize	Number of multifile cache buffers
+cdflib.getVarCompression	Information about compression used by variable
+cdflib.getVarData	Single value from record in variable
+cdflib.getVarMaxAllocRecNum	Maximum allocated record number for variable
+cdflib.getVarMaxWrittenRecNum	Maximum written record number for variable
+cdflib.getVarName	Variable name, given variable number
+cdflib.getVarNum	Variable number, given variable name
+cdflib.getVarNumRecsWritten	Number of records written to variable
+cdflib.getVarPadValue	Pad value for variable
+cdflib.getVarRecordData	Entire record for variable
+cdflib.getVarReservePercent	Compression reserve percentage for variable
+cdflib.getVarsMaxWrittenRecNum	Maximum written record number for CDF file
+cdflib.getVarSparseRecords	Information about how variable handles sparse records
+cdflib.hyperGetVarData	Read hyperslab of data from variable
+cdflib.hyperPutVarData	Write hyperslab of data to variable
+cdflib.inquireVar	Information about variable
+cdflib.putVarData	Write single value to variable
+cdflib.putVarRecordData	Write entire record to variable
+cdflib.renameVar	Rename existing variable
+cdflib.setVarAllocBlockRecords	Specify range of records to be allocated for variable
+cdflib.setVarBlockingFactor	Specify blocking factor for variable
+cdflib.setVarCacheSize	Specify number of multi-file cache buffers for variable
+cdflib.setVarCompression	Specify compression settings used with variable
+cdflib.setVarInitialRecs	Specify initial number of records written to variable
+cdflib.setVarPadValue	Specify pad value used with variable
+cdflib.SetVarReservePercent	Specify reserve percentage for variable
+cdflib.setVarsCacheSize	Specify number of cache buffers used for all variables
+cdflib.setVarSparseRecords	Specify how variable handles sparse records
+cdflib.createAttr	Create attribute
+cdflib.deleteAttr	Delete attribute
+cdflib.deleteAttrEntry	Delete attribute entry
+cdflib.deleteAttrgEntry	Delete entry in global attribute
+cdflib.getAttrEntry	Value of entry in attribute with variable scope
+cdflib.getAttrgEntry	Value of entry in global attribute
+cdflib.getAttrMaxEntry	Number of last entry for variable attribute
+cdflib.getAttrMaxgEntry	Number of last entry for global attribute
+cdflib.getAttrName	Name of attribute, given attribute number
+cdflib.getAttrNum	Attribute number, given attribute name
+cdflib.getAttrScope	Scope of attribute
+cdflib.getNumAttrEntries	Number of entries for attribute with variable scope
+cdflib.getNumAttrgEntries	Number of entries for attribute with global scope
+cdflib.getNumAttributes	Number of attributes with variable scope
+cdflib.getNumgAttributes	Number of attributes with global scope
+cdflib.inquireAttr	Information about attribute
+cdflib.inquireAttrEntry	Information about entry in attribute with variable scope
+cdflib.inquireAttrgEntry	Information about entry in attribute with global scope
+cdflib.putAttrEntry	Write value to entry in attribute with variable scope
+cdflib.putAttrgEntry	Write value to entry in attribute with global scope
+cdflib.renameAttr	Rename existing attribute
+cdflib.computeEpoch	Convert time value to CDF_EPOCH value
+cdflib.computeEpoch16	Convert time value to CDF_EPOCH16 value
+cdflib.epoch16Breakdown	Convert CDF_EPOCH16 value to time value
+cdflib.epochBreakdown	Convert CDF_EPOCH value into time value
+nccreate	Create variable in NetCDF file
+ncdisp	Display contents of NetCDF data source in Command Window
+ncinfo	Return information about NetCDF data source
+ncread	Read data from variable in NetCDF data source
+ncreadatt	Read attribute value from NetCDF data source
+ncwrite	Write data to NetCDF file
+ncwriteatt	Write attribute to NetCDF file
+ncwriteschema	Add NetCDF schema definitions to NetCDF file
+netcdf	Summary of MATLAB Network Common Data Form (NetCDF) capabilities
+netcdf.setChunkCache	Set default chunk cache settings for NetCDF library
+netcdf.getChunkCache	Retrieve chunk cache settings for NetCDF library
+netcdf.inqLibVers	Return NetCDF library version information
+netcdf.setDefaultFormat	Change default netCDF file format
+netcdf.abort	Revert recent netCDF file definitions
+netcdf.close	Close netCDF file
+netcdf.create	Create new NetCDF dataset
+netcdf.endDef	End netCDF file define mode
+netcdf.inq	Return information about netCDF file
+netcdf.inqFormat	Determine format of NetCDF file
+netcdf.inqGrps	Retrieve array of child group IDs
+netcdf.inqUnlimDims	Return list of unlimited dimensions in group
+netcdf.open	Open NetCDF data source
+netcdf.reDef	Put open netCDF file into define mode
+netcdf.setFill	Set netCDF fill mode
+netcdf.sync	Synchronize netCDF file to disk
+netcdf.defDim	Create netCDF dimension
+netcdf.inqDim	Return netCDF dimension name and length
+netcdf.inqDimID	Return dimension ID
+netcdf.renameDim	Change name of netCDF dimension
+netcdf.defGrp	Create group in NetCDF file
+netcdf.inqDimIDs	Retrieve list of dimension identifiers in group
+netcdf.inqGrpName	Retrieve name of group
+netcdf.inqGrpNameFull	Complete pathname of group
+netcdf.inqGrpParent	Retrieve ID of parent group.
+netcdf.inqNcid	Return ID of named group
+netcdf.inqVarIDs	IDs of all variables in group
+netcdf.defVarFill	Define fill parameters for NetCDF variable
+netcdf.inqVarDeflate	Determine compression settings for NetCDF variable
+netcdf.defVar	Create NetCDF variable
+netcdf.defVarChunking	Define chunking behavior for NetCDF variable
+netcdf.defVarDeflate	Define compression parameters for NetCDF variable
+netcdf.defVarFletcher32	Define checksum parameters for NetCDF variable
+netcdf.getVar	Return data from netCDF variable
+netcdf.inqVar	Return information about variable
+netcdf.inqVarChunking	Determine chunking settings for NetCDF variable
+netcdf.inqVarFill	Determine values of fill parameters for NetCDF variable
+netcdf.inqVarFletcher32	Fletcher32 checksum setting for NetCDF variable
+netcdf.inqVarID	Return ID associated with variable name
+netcdf.putVar	Write data to netCDF variable
+netcdf.renameVar	Change name of netCDF variable
+netcdf.copyAtt	Copy attribute to new location
+netcdf.delAtt	Delete netCDF attribute
+netcdf.getAtt	Return netCDF attribute
+netcdf.inqAtt	Return information about netCDF attribute
+netcdf.inqAttID	Return ID of netCDF attribute
+netcdf.inqAttName	Return name of netCDF attribute
+netcdf.putAtt	Write netCDF attribute
+netcdf.renameAtt	Change name of attribute
+netcdf.getConstant	Return numeric value of named constant
+netcdf.getConstantNames	Return list of constants known to netCDF library
+fitsdisp	Display FITS metadata
+fitsinfo	Information about FITS file
+fitsread	Read data from FITS file
+fitswrite	Write image to FITS file
+h5create	Create HDF5 data set
+h5disp	Display contents of HDF5 file
+h5info	Return information about HDF5 file
+h5read	Read data from HDF5 data set
+h5readatt	Read attribute from HDF5 file
+h5write	Write to HDF5 data set
+h5writeatt	Write HDF5 attribute
+hdf	Summary of MATLAB HDF4 capabilities
+hdf5	Summary of MATLAB HDF5 capabilities
+hdf5info	Information about HDF5 file
+hdf5read	Read HDF5 file
+hdf5write	Write data to file in HDF5 format
+hdfinfo	Information about HDF4 or HDF-EOS file
+hdfread	Read data from HDF4 or HDF-EOS file
+hdftool	Browse and import data from HDF4 or HDF-EOS files
+multibandread	Read band-interleaved data from binary file
+multibandwrite	Write band-interleaved data to file
+audioinfo	Information about audio file
+audioread	Read audio file
+audiowrite	Write audio file
+mmfileinfo	Information about multimedia file
+movie2avi	Create Audio/Video Interleaved (AVI) file from MATLAB movie
+VideoReader	Read video files
+VideoWriter	Write video files
+aufinfo	Information about NeXT/SUN (.au) sound file
+auread	Read NeXT/SUN (.au) sound file
+auwrite	Write NeXT/SUN (.au) sound file
+wavfinfo	Information about WAVE (.wav) sound file
+wavread	Read WAVE (.wav) sound file
+wavwrite	Write WAVE (.wav) sound file
+mmreader	Create object for reading video files
+aviinfo	Information about Audio/Video Interleaved (AVI) file
+avifile	Create new Audio/Video Interleaved (AVI) file
+aviread	Read Audio/Video Interleaved (AVI) file
+addframe	Add frame to Audio/Video Interleaved (AVI) file
+close	Close Audio/Video Interleaved (AVI) file
+audiodevinfo	Information about audio device
+audioplayer	Create object for playing audio
+audiorecorder	Create object for recording audio
+sound	Convert matrix of signal data to sound
+soundsc	Scale data and play as sound
+get	Query property values for audioplayer object
+play	Play audio from audioplayer object
+playblocking	Play audio from audioplayer object, holding control until playback completes
+set	Set property values for audioplayer object
+get	Query property values for audiorecorder object
+getaudiodata	Store recorded audio signal in numeric array
+play	Play audio from audiorecorder object
+record	Record audio to audiorecorder object
+recordblocking	Record audio to audiorecorder object, holding control until recording completes
+set	Set property values for audiorecorder object
+wavplay	Play recorded sound on PC-based audio output device
+wavrecord	Record sound using PC-based audio input device
+beep	Produce beep sound
+lin2mu	Convert linear audio signal to mu-law
+mu2lin	Convert mu-law audio signal to linear
+xmlread	Read XML document and return Document Object Model node
+xmlwrite	Write XML Document Object Model node
+xslt	Transform XML document using XSLT engine
+disp (memmapfile)	Information about memmapfile object
+get (memmapfile)	Memmapfile object properties
+memmapfile	Construct memmapfile object
+cd	Change current folder
+copyfile	Copy file or folder
+delete	Remove files or graphics objects
+dir	List folder contents
+fileattrib	Set or get attributes of file or folder
+filebrowser	Open Current Folder browser, or select it if already open
+isdir	Determine whether input is folder
+lookfor	Search for keyword in all help entries
+ls	List folder contents
+matlabroot	Root folder
+mkdir	Make new folder
+movefile	Move file or folder
+pwd	Identify current folder
+recycle	Set option to move deleted files to recycle folder
+rmdir	Remove folder
+tempdir	Name of system's temporary folder
+toolboxdir	Root folder for specified toolbox
+type	Display contents of file
+visdiff	Compare two text files, MAT-Files, binary files, Zip files, or folders
+what	List MATLAB files in folder
+filemarker	Character to separate file name and internal function name
+fileparts	Parts of file name and path
+filesep	File separator for current platform
+fullfile	Build full file name from parts
+tempdir	Name of system's temporary folder
+tempname	Unique name for temporary file
+gunzip	Uncompress GNU zip files
+gzip	Compress files into GNU zip files
+tar	Compress files into tar file
+untar	Extract contents of tar file
+unzip	Extract contents of zip file
+zip	Compress files into zip file
+addpath	Add folders to search path
+genpath	Generate path string
+path	View or change search path
+path2rc	Save current search path to pathdef.m file
+pathsep	Search path separator for current platform
+pathtool	Open Set Path dialog box to view and change search path
+restoredefaultpath	Restore default search path
+rmpath	Remove folders from search path
+savepath	Save current search path
+userpath	View or change user portion of search path
+which	Locate functions and files
+clipboard	Copy and paste strings to and from system clipboard
+computer	Information about computer on which MATLAB software is running
+dos	Execute DOS command and return result
+getenv	Environment variable
+hostid	Server host identification number
+perl	Call Perl script using appropriate operating system executable
+setenv	Set environment variable
+system	Execute operating system command and return result
+unix	Execute UNIX command and return result
+winqueryreg	Item from Windows registry
+ftp	Connect to FTP server
+sendmail	Send email message to address list
+urlread	Download URL content to MATLAB string
+urlwrite	Download URL content and save to file
+web	Open Web page or file in browser
+clear (serial)	Remove serial port object from MATLAB workspace
+delete (serial)	Remove serial port object from memory
+disp (serial)	Serial port object summary information
+fclose (serial)	Disconnect serial port object from device
+fgetl (serial)	Read line of text from device and discard terminator
+fgets (serial)	Read line of text from device and include terminator
+fopen (serial)	Connect serial port object to device
+fprintf (serial)	Write text to device
+fread (serial)	Read binary data from device
+fscanf (serial)	Read data from device, and format as text
+fwrite (serial)	Write binary data to device
+get (serial)	Serial port object properties
+instrcallback	Event information when event occurs
+instrfind	Read serial port objects from memory to MATLAB workspace
+instrfindall	Find visible and hidden serial port objects
+isvalid (serial)	Determine whether serial port objects are valid
+length (serial)	Length of serial port object array
+load (serial)	Load serial port objects and variables into MATLAB workspace
+readasync	Read data asynchronously from device
+record	Record data and event information to file
+save (serial)	Save serial port objects and variables to file
+serial	Create serial port object
+serialbreak	Send break to device connected to serial port
+set (serial)	Configure or display serial port object properties
+size (serial)	Size of serial port object array
+stopasync	Stop asynchronous read and write operations
+figure	Create figure graphics object
+axes	Create axes graphics object
+uicontrol	Create user interface control object
+uitable	Create 2-D graphic table GUI component
+uipanel	Create panel container object
+uibuttongroup	Create container object to exclusively manage radio buttons and toggle buttons
+actxcontrol	Create Microsoft ActiveX control in figure window
+guide	Open GUI Layout Editor
+inspect	Open Property Inspector
+Uicontrol Properties	Describe user interface control (uicontrol) properties
+Uitable Properties	Describe table properties
+Uipanel Properties	Describe panel properties
+Uibuttongroup Properties	Describe button group properties
+uimenu	Create menus and menu items on figure windows
+uicontextmenu	Create context menu
+uitoolbar	Create toolbar on figure
+uipushtool	Create push button on toolbar
+uitoggletool	Create toggle button on toolbar
+Uimenu Properties	Describe menu properties
+Uicontextmenu Properties	Describe context menu properties
+Uitoolbar Properties	Describe toolbar properties
+Uipushtool Properties	Describe push tool properties
+Uitoggletool Properties	Describe toggle tool properties
+dialog	Create and display empty dialog box
+errordlg	Create and open error dialog box
+helpdlg	Create and open help dialog box
+msgbox	Create and open message box
+questdlg	Create and open question dialog box
+uigetpref	Specify and conditionally open dialog box according to user preference
+uisetpref	Manage preferences used in uigetpref
+waitbar	Open or update wait bar dialog box
+warndlg	Open warning dialog box
+export2wsdlg	Export variables to workspace
+inputdlg	Create and open input dialog box
+listdlg	Create and open list-selection dialog box
+uisetcolor	Open standard dialog box for setting object's ColorSpec
+uisetfont	Open standard dialog box for setting object's font characteristics
+printdlg	Print dialog box
+printpreview	Preview figure to print
+uigetdir	Open standard dialog box for selecting directory
+uigetfile	Open standard dialog box for retrieving files
+uiopen	Interactively select file to open and load data
+uiputfile	Open standard dialog box for saving files
+uisave	Interactively save workspace variables to MAT-file
+menu	Generate menu of choices for user input
+align	Align user interface controls (uicontrols) and axes
+movegui	Move GUI figure to specified location on screen
+getpixelposition	Get component position in pixels
+setpixelposition	Set component position in pixels
+listfonts	List available system fonts
+textwrap	Wrapped string matrix for given uicontrol
+uistack	Reorder visual stacking order of objects
+guidata	Store or retrieve GUI data
+guihandles	Create structure of handles
+openfig	Open new copy or raise existing copy of saved figure
+getappdata	Value of application-defined data
+isappdata	True if application-defined data exists
+rmappdata	Remove application-defined data
+setappdata	Specify application-defined data
+uiresume	Resume execution of blocked program
+uiwait	Block program execution and wait to resume
+waitfor	Block execution and wait for event or condition
+waitforbuttonpress	Wait for key press or mouse-button click
+addpref	Add preference
+getpref	Preference
+ispref	Test for existence of preference
+rmpref	Remove preference
+setpref	Set preference
+matlab.apputil.create	Create or modify app project file for packaging app into .mlappinstall file using interactive dialog box
+matlab.apputil.package	Package app files into .mlappinstall file
+matlab.apputil.install	Install app from a .mlappinstall file
+matlab.apputil.run	Run app programmatically
+matlab.apputil.getInstalledAppInfo	List installed app information
+matlab.apputil.uninstall	Uninstall app
+class	Determine class of object
+isa	Determine if input is object of specified class
+isequal	Test arrays for equality
+isobject	Determine if input is MATLAB object
+enumeration	Display class enumeration members and names
+events	Event names
+methods	Class method names
+properties	Class property names
+classdef	Class definition keywords
+import	Add package or class to current import list
+properties	Class property names
+isprop	Determine if property of object
+methods	Class method names
+ismethod	Determine if method of object
+delete	Handle object destructor
+findobj	Find handle objects matching specified conditions
+isa	Determine if input is object of specified class
+isvalid	Is object valid handle class object
+findprop	Find meta.property object associated with property name
+relationaloperators	Equality and sorting of handle objects
+events	Event names
+notify	Notify listeners that event is occurring
+addlistener	Create event listener
+empty	Create empty array
+superclasses	Superclass names
+superiorto	Establish superior class relationship
+inferiorto	Specify inferior class relationship
+enumeration	Display class enumeration members and names
+save	Save workspace variables to file
+load	Load data from MAT-file into workspace
+saveobj	Modify save process for object
+loadobj	Modify load process for object
+cat	Concatenate arrays along specified dimension
+horzcat	Concatenate arrays horizontally
+vertcat	Concatenate arrays vertically
+empty	Create empty array
+disp	Display text or array
+display	Display text and numeric expressions
+numel	Number of elements in array or subscripted array expression
+size	Array dimensions
+end	Terminate block of code, or indicate last array index
+subsref	Redefine subscripted reference for objects
+subsasgn	Subscripted assignment
+subsindex	Subscript indexing with object
+substruct	Create structure argument for subsasgn or subsref
+metaclass	Obtain meta.class object
+meta.class.fromName	Return meta.class object associated with named class
+meta.package.fromName	Return meta.package object for specified package
+meta.package.getAllPackages	Get all top-level packages
+addCause (MException)	Record additional causes of exception
+getReport (MException)	Get error message for exception
+last (MException)	Last uncaught exception
+rethrow (MException)	Reissue existing exception
+throw (MException)	Issue exception and terminate function
+throwAsCaller (MException)	Throw exception as if from calling function
+catch	Handle error detected in try statement
+disp (MException)	Display MException object
+eq (MException)	Compare scalar MException objects for equality
+ne (MException)	Compare scalar MException objects for inequality
+isequal (MException)	Compare scalar MException objects for equality
+bench	MATLAB benchmark
+cputime	Elapsed CPU time
+memory	Display memory information
+profile	Profile execution time for function
+profsave	Save profile report in HTML format
+tic	Start clock to measure performance
+toc	Stop clock to measure performance
+clear	Remove items from workspace, freeing up system memory
+inmem	Names of functions, MEX-files, Java classes in memory
+memory	Display memory information
+whos	List variables in workspace, with sizes and types
+mislocked	Determine if function is locked in memory
+mlock	Prevent clearing function from memory
+munlock	Allow clearing functions from memory
+pack	Consolidate workspace memory
+rehash	Refresh function and file system path caches
+builddocsearchdb	Build searchable documentation database
+javaArray	Construct Java array
+javaclasspath	Get and set Java class path
+javaaddpath	Add entries to dynamic Java class path
+javarmpath	Remove entries from dynamic Java class path
+javaMethod	Invoke Java method
+javaMethodEDT	Invoke Java method from Event Dispatch Thread (EDT)
+javaObject	Invoke Java constructor
+javaObjectEDT	Java object constructor on Event Dispatch Thread (EDT)
+javachk	Generate error message based on Java feature support
+isjava	Determine whether input is Java object
+usejava	Determine whether Java feature is supported in MATLAB software
+cell	Create cell array
+class	Determine class of object
+clear	Remove items from workspace, freeing up system memory
+depfun	List dependencies of function or P-file
+exist	Check existence of variable, function, folder, or class
+fieldnames	Field names of structure, or public fields of object
+im2java	Convert image to Java image
+import	Add package or class to current import list
+inmem	Names of functions, MEX-files, Java classes in memory
+inspect	Open Property Inspector
+isa	Determine if input is object of specified class
+methods	Class method names
+methodsview	View class methods
+which	Locate functions and files
+NET.addAssembly	Make .NET assembly visible to MATLAB
+NET	Summary of functions in MATLAB .NET interface
+enableNETfromNetworkDrive	Enable access to .NET commands from network drive
+NET.createArray	Array for nonprimitive .NET types
+cell	Create cell array
+NET.disableAutoRelease	Lock .NET object representing a RunTime Callable Wrapper (COM Wrapper) so that MATLAB does not release COM object
+NET.enableAutoRelease	Unlock .NET object representing a RunTime Callable Wrapper (COM Wrapper) so that MATLAB releases COM object
+NET.setStaticProperty	Static property or field name
+BeginInvoke	Initiate asynchronous .NET delegate call
+EndInvoke	Retrieve result of asynchronous call initiated by .NET System.Delegate BeginInvoke method
+Combine	Convenience function for static .NET System.Delegate Combine method
+Remove	Convenience function for static .NET System.Delegate Remove method
+RemoveAll	Convenience function for static .NET System.Delegate RemoveAll method
+bitand	Bitwise AND
+bitor	Bitwise OR
+bitxor	Bitwise XOR
+bitnot	Bit-wise NOT
+NET.convertArray	Convert numeric MATLAB array to .NET array
+NET.createGeneric	Create instance of specialized .NET generic type
+NET.invokeGenericMethod	Invoke generic method of object
+actxserver	Create COM server
+actxcontrol	Create Microsoft ActiveX control in figure window
+actxcontrollist	List currently installed Microsoft ActiveX controls
+actxcontrolselect	Create Microsoft ActiveX control from GUI
+iscom	Determine whether input is COM or ActiveX object
+isprop	Determine whether input is COM object property
+get	Get property value from interface, or display properties
+set	Set object or interface property to specified value
+addproperty	Add custom property to COM object
+deleteproperty	Remove custom property from COM object
+inspect	Open Property Inspector
+propedit	Open built-in property page for control
+fieldnames	Field names of structure, or public fields of object
+ismethod	Determine whether input is COM object method
+methods	Class method names
+methodsview	View class methods
+invoke	Invoke method on COM object or interface, or display methods
+isevent	Determine whether input is COM object event
+events	List of events COM object can trigger
+eventlisteners	List event handler functions associated with COM object events
+registerevent	Associate event handler for COM object event at run time
+unregisterallevents	Unregister all event handlers associated with COM object events at run time
+unregisterevent	Unregister event handler associated with COM object event at run time
+isinterface	Determine whether input is COM interface
+interfaces	List custom interfaces exposed by COM server object
+release	Release COM interface
+delete	Remove COM control or server
+move	Move or resize control in parent window
+load	Initialize control object from file
+save	Serialize control object to file
+Execute	Execute MATLAB command in Automation server
+Feval	Evaluate MATLAB function in Automation server
+GetCharArray	Character array from Automation server
+PutCharArray	Store character array in Automation server
+GetFullMatrix	Matrix from Automation server workspace
+PutFullMatrix	Matrix in Automation server workspace
+GetVariable	Data from variable in Automation server workspace
+GetWorkspaceData	Data from Automation server workspace
+PutWorkspaceData	Data in Automation server workspace
+MaximizeCommandWindow	Open Automation server window
+MinimizeCommandWindow	Minimize size of Automation server window
+actxGetRunningServer	Handle to running instance of Automation server
+enableservice	Enable, disable, or report status of MATLAB Automation server
+Quit	Terminate MATLAB Automation server
+callSoapService	Send SOAP message to endpoint
+createClassFromWsdl	Create MATLAB class based on WSDL document
+createSoapMessage	Create SOAP message to send to server
+parseSoapResponse	Convert response string from SOAP server into MATLAB types
+loadlibrary	Load shared library into MATLAB
+calllib	Call function in shared library
+libfunctions	Return information on functions in shared library
+libfunctionsview	Display shared library function signatures in window
+libisloaded	Determine if shared library is loaded
+unloadlibrary	Unload shared library from memory
+libstruct	Convert MATLAB structure to C-style structure for use with shared library
+libpointer	Pointer object for use with shared library
+mex	Compile MEX-function from C/C++ or Fortran source code
+mex.getCompilerConfigurations	Get compiler configuration information for building MEX-files
+mexext	Binary MEX-file name extension
+dbmex	Enable MEX-file debugging (on UNIX platforms)
+inmem	Names of functions, MEX-files, Java classes in memory
+checkin	Check files into source control system (UNIX platforms)
+checkout	Check files out of source control system (UNIX platforms)
+cmopts	Name of source control system
+customverctrl	Allow custom source control system (UNIX platforms)
+undocheckout	Undo previous checkout from source control system (UNIX platforms)
+verctrl	Source control actions (Windows platforms)
+matlab (Windows)	Start MATLAB program (Windows platforms)
+matlab (UNIX)	Start MATLAB program (UNIX platforms)
+exit	Terminate MATLAB program (same as quit)
+quit	Terminate MATLAB program
+matlabrc	Startup file for MATLAB program
+startup	Startup file for user-defined options
+finish	Termination file for MATLAB program
+prefdir	Folder containing preferences, history, and layout files
+preferences	Open Preferences dialog box
+ismac	Determine if version is for Mac OS X platform
+ispc	Determine if version is for Windows (PC) platform
+isstudent	Determine if version is Student Version
+isunix	Determine if version is for UNIX platform
+javachk	Generate error message based on Java feature support
+license	Return license number or perform licensing task
+usejava	Determine whether Java feature is supported in MATLAB software
+ver	Version information for MathWorks products
+verLessThan	Compare toolbox version to specified version string
+version	Version number for MATLAB and libraries
+doc	Reference page in Help browser
+help	Help for functions in Command Window
+demo	Access product examples in Help browser
+echodemo	Run example script step-by-step in Command Window
+lookfor	Search for keyword in all help entries
+docsearch	Help browser search
+helpbrowser	Open Help browser to access online documentation
+helpdesk	Open Help browser
+helpwin	Provide access to help comments for all functions
+info	Information about contacting MathWorks
+support	Open MathWorks Technical Support Web page
+whatsnew	Release Notes
