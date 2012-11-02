@@ -1,0 +1,4070 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<NotepadPlus>
+	<AutoComplete>
+		<Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal=";" />		<KeyWord name="BeginInvoke" func="yes">
+			<Overload retVal="void" >
+				<Param name="Initiate asynchronous .NET delegate call"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Combine" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convenience function for static .NET System.Delegate Combine method"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="EndInvoke" func="yes">
+			<Overload retVal="void" >
+				<Param name="Retrieve result of asynchronous call initiated by .NET System.Delegate BeginInvoke method"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Execute" func="yes">
+			<Overload retVal="void" >
+				<Param name="Execute MATLAB command in Automation server"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Feval" func="yes">
+			<Overload retVal="void" >
+				<Param name="Evaluate MATLAB function in Automation server"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GetCharArray" func="yes">
+			<Overload retVal="void" >
+				<Param name="Character array from Automation server"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GetFullMatrix" func="yes">
+			<Overload retVal="void" >
+				<Param name="Matrix from Automation server workspace"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GetVariable" func="yes">
+			<Overload retVal="void" >
+				<Param name="Data from variable in Automation server workspace"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GetWorkspaceData" func="yes">
+			<Overload retVal="void" >
+				<Param name="Data from Automation server workspace"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MaximizeCommandWindow" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open Automation server window"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MinimizeCommandWindow" func="yes">
+			<Overload retVal="void" >
+				<Param name="Minimize size of Automation server window"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NET" func="yes">
+			<Overload retVal="void" >
+				<Param name="Summary of functions in MATLAB .NET interface"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NET.addAssembly" func="yes">
+			<Overload retVal="void" >
+				<Param name="Make .NET assembly visible to MATLAB"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NET.convertArray" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert numeric MATLAB array to .NET array"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NET.createArray" func="yes">
+			<Overload retVal="void" >
+				<Param name="Array for nonprimitive .NET types"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NET.createGeneric" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create instance of specialized .NET generic type"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NET.disableAutoRelease" func="yes">
+			<Overload retVal="void" >
+				<Param name="Lock .NET object representing a RunTime Callable Wrapper (COM Wrapper) so that MATLAB does not release COM object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NET.enableAutoRelease" func="yes">
+			<Overload retVal="void" >
+				<Param name="Unlock .NET object representing a RunTime Callable Wrapper (COM Wrapper) so that MATLAB releases COM object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NET.invokeGenericMethod" func="yes">
+			<Overload retVal="void" >
+				<Param name="Invoke generic method of object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NET.setStaticProperty" func="yes">
+			<Overload retVal="void" >
+				<Param name="Static property or field name"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PutCharArray" func="yes">
+			<Overload retVal="void" >
+				<Param name="Store character array in Automation server"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PutFullMatrix" func="yes">
+			<Overload retVal="void" >
+				<Param name="Matrix in Automation server workspace"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PutWorkspaceData" func="yes">
+			<Overload retVal="void" >
+				<Param name="Data in Automation server workspace"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Quit" func="yes">
+			<Overload retVal="void" >
+				<Param name="Terminate MATLAB Automation server"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Remove" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convenience function for static .NET System.Delegate Remove method"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RemoveAll" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convenience function for static .NET System.Delegate RemoveAll method"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Uibuttongroup Properties" func="yes">
+			<Overload retVal="void" >
+				<Param name="Describe button group properties"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Uicontextmenu Properties" func="yes">
+			<Overload retVal="void" >
+				<Param name="Describe context menu properties"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Uicontrol Properties" func="yes">
+			<Overload retVal="void" >
+				<Param name="Describe user interface control (uicontrol) properties"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Uimenu Properties" func="yes">
+			<Overload retVal="void" >
+				<Param name="Describe menu properties"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Uipanel Properties" func="yes">
+			<Overload retVal="void" >
+				<Param name="Describe panel properties"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Uipushtool Properties" func="yes">
+			<Overload retVal="void" >
+				<Param name="Describe push tool properties"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Uitable Properties" func="yes">
+			<Overload retVal="void" >
+				<Param name="Describe table properties"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Uitoggletool Properties" func="yes">
+			<Overload retVal="void" >
+				<Param name="Describe toggle tool properties"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Uitoolbar Properties" func="yes">
+			<Overload retVal="void" >
+				<Param name="Describe toolbar properties"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="VideoReader" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read video files"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="VideoWriter" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write video files"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="actxGetRunningServer" func="yes">
+			<Overload retVal="void" >
+				<Param name="Handle to running instance of Automation server"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="actxcontrol" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create Microsoft ActiveX control in figure window"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="actxcontrollist" func="yes">
+			<Overload retVal="void" >
+				<Param name="List currently installed Microsoft ActiveX controls"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="actxcontrolselect" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create Microsoft ActiveX control from GUI"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="actxserver" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create COM server"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="addCause (MException)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Record additional causes of exception"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="addOptional" func="yes">
+			<Overload retVal="void" >
+				<Param name="Add optional argument to Input Parser scheme"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="addParamValue" func="yes">
+			<Overload retVal="void" >
+				<Param name="Add parameter name and value argument to Input Parser scheme"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="addRequired" func="yes">
+			<Overload retVal="void" >
+				<Param name="Add required argument to Input Parser scheme"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="addframe" func="yes">
+			<Overload retVal="void" >
+				<Param name="Add frame to Audio/Video Interleaved (AVI) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="addlistener" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create event listener"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="addpath" func="yes">
+			<Overload retVal="void" >
+				<Param name="Add folders to search path"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="addpref" func="yes">
+			<Overload retVal="void" >
+				<Param name="Add preference"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="addproperty" func="yes">
+			<Overload retVal="void" >
+				<Param name="Add custom property to COM object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="align" func="yes">
+			<Overload retVal="void" >
+				<Param name="Align user interface controls (uicontrols) and axes"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="alim" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set or query axes alpha limits"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="allchild" func="yes">
+			<Overload retVal="void" >
+				<Param name="Find all children of specified objects"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="alpha" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set transparency properties for objects in current axes"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="alphamap" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify figure alphamap (transparency)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ancestor" func="yes">
+			<Overload retVal="void" >
+				<Param name="Ancestor of graphics object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="annotation" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create annotation objects"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="assert" func="yes">
+			<Overload retVal="void" >
+				<Param name="Generate error when condition is violated"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="assignin" func="yes">
+			<Overload retVal="void" >
+				<Param name="Assign value to variable in specified workspace"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="audiodevinfo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about audio device"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="audioinfo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about audio file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="audioplayer" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create object for playing audio"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="audioread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read audio file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="audiorecorder" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create object for recording audio"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="audiowrite" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write audio file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="aufinfo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about NeXT/SUN (.au) sound file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="auread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read NeXT/SUN (.au) sound file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="auwrite" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write NeXT/SUN (.au) sound file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="avifile" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create new Audio/Video Interleaved (AVI) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="aviinfo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about Audio/Video Interleaved (AVI) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="aviread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read Audio/Video Interleaved (AVI) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="axes" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create axes graphics object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="axis" func="yes">
+			<Overload retVal="void" >
+				<Param name="Axis scaling and appearance"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="beep" func="yes">
+			<Overload retVal="void" >
+				<Param name="Produce beep sound"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bench" func="yes">
+			<Overload retVal="void" >
+				<Param name="MATLAB benchmark"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bitand" func="yes">
+			<Overload retVal="void" >
+				<Param name="Bitwise AND"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bitnot" func="yes">
+			<Overload retVal="void" >
+				<Param name="Bit-wise NOT"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bitor" func="yes">
+			<Overload retVal="void" >
+				<Param name="Bitwise OR"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bitxor" func="yes">
+			<Overload retVal="void" >
+				<Param name="Bitwise XOR"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="box" func="yes">
+			<Overload retVal="void" >
+				<Param name="Axes border"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="brighten" func="yes">
+			<Overload retVal="void" >
+				<Param name="Brighten or darken colormap"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="brush" func="yes">
+			<Overload retVal="void" >
+				<Param name="Interactively mark, delete, modify, and save observations in graphs"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="builddocsearchdb" func="yes">
+			<Overload retVal="void" >
+				<Param name="Build searchable documentation database"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="builtin" func="yes">
+			<Overload retVal="void" >
+				<Param name="Execute built-in function from overloaded method"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="callSoapService" func="yes">
+			<Overload retVal="void" >
+				<Param name="Send SOAP message to endpoint"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="calllib" func="yes">
+			<Overload retVal="void" >
+				<Param name="Call function in shared library"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="camdolly" func="yes">
+			<Overload retVal="void" >
+				<Param name="Move camera position and target"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cameratoolbar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Control camera toolbar programmatically"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="camlight" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create or move light object in camera coordinates"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="camlookat" func="yes">
+			<Overload retVal="void" >
+				<Param name="Position camera to view object or group of objects"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="camorbit" func="yes">
+			<Overload retVal="void" >
+				<Param name="Rotate camera position around camera target"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="campan" func="yes">
+			<Overload retVal="void" >
+				<Param name="Rotate camera target around camera position"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="campos" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set or query camera position"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="camproj" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set or query projection type"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="camroll" func="yes">
+			<Overload retVal="void" >
+				<Param name="Rotate camera about view axis"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="camtarget" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set or query location of camera target"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="camup" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set or query camera up vector"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="camva" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set or query camera view angle"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="camzoom" func="yes">
+			<Overload retVal="void" >
+				<Param name="Zoom in and out on scene"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="case" func="yes">
+			<Overload retVal="void" >
+				<Param name="Optional keyword in switch statement"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cat" func="yes">
+			<Overload retVal="void" >
+				<Param name="Concatenate arrays along specified dimension"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="catch" func="yes">
+			<Overload retVal="void" >
+				<Param name="Handle error detected in try statement"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="caxis" func="yes">
+			<Overload retVal="void" >
+				<Param name="Color axis scaling"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cd" func="yes">
+			<Overload retVal="void" >
+				<Param name="Change current folder"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdfepoch" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert MATLAB formatted dates to CDF formatted dates"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdfinfo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about Common Data Format (CDF) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib" func="yes">
+			<Overload retVal="void" >
+				<Param name="Summary of Common Data Format (CDF) capabilities"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.SetVarReservePercent" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify reserve percentage for variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.close" func="yes">
+			<Overload retVal="void" >
+				<Param name="Close Common Data Format (CDF) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.closeVar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Close specified variable from multifile format Common Data Format (CDF) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.computeEpoch" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert time value to CDF_EPOCH value"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.computeEpoch16" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert time value to CDF_EPOCH16 value"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.create" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create Common Data Format (CDF) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.createAttr" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.createVar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create new variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.delete" func="yes">
+			<Overload retVal="void" >
+				<Param name="Delete existing Common Data Format (CDF) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.deleteAttr" func="yes">
+			<Overload retVal="void" >
+				<Param name="Delete attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.deleteAttrEntry" func="yes">
+			<Overload retVal="void" >
+				<Param name="Delete attribute entry"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.deleteAttrgEntry" func="yes">
+			<Overload retVal="void" >
+				<Param name="Delete entry in global attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.deleteVar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Delete variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.deleteVarRecords" func="yes">
+			<Overload retVal="void" >
+				<Param name="Delete range of records from variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.epoch16Breakdown" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert CDF_EPOCH16 value to time value"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.epochBreakdown" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert CDF_EPOCH value into time value"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getAttrEntry" func="yes">
+			<Overload retVal="void" >
+				<Param name="Value of entry in attribute with variable scope"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getAttrMaxEntry" func="yes">
+			<Overload retVal="void" >
+				<Param name="Number of last entry for variable attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getAttrMaxgEntry" func="yes">
+			<Overload retVal="void" >
+				<Param name="Number of last entry for global attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getAttrName" func="yes">
+			<Overload retVal="void" >
+				<Param name="Name of attribute, given attribute number"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getAttrNum" func="yes">
+			<Overload retVal="void" >
+				<Param name="Attribute number, given attribute name"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getAttrScope" func="yes">
+			<Overload retVal="void" >
+				<Param name="Scope of attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getAttrgEntry" func="yes">
+			<Overload retVal="void" >
+				<Param name="Value of entry in global attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getCacheSize" func="yes">
+			<Overload retVal="void" >
+				<Param name="Number of cache buffers used"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getChecksum" func="yes">
+			<Overload retVal="void" >
+				<Param name="Checksum mode"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getCompression" func="yes">
+			<Overload retVal="void" >
+				<Param name="Compression settings"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getCompressionCacheSize" func="yes">
+			<Overload retVal="void" >
+				<Param name="Number of compression cache buffers"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getConstantNames" func="yes">
+			<Overload retVal="void" >
+				<Param name="Names of Common Data Format (CDF) library constants"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getConstantValue" func="yes">
+			<Overload retVal="void" >
+				<Param name="Numeric value corresponding to Common Data Format (CDF) library constant"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getCopyright" func="yes">
+			<Overload retVal="void" >
+				<Param name="Copyright notice in Common Data Format (CDF) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getFileBackward" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return current backward compatibility mode setting"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getFormat" func="yes">
+			<Overload retVal="void" >
+				<Param name="Format of Common Data Format (CDF) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getLibraryCopyright" func="yes">
+			<Overload retVal="void" >
+				<Param name="Copyright notice of Common Data Format (CDF) library"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getLibraryVersion" func="yes">
+			<Overload retVal="void" >
+				<Param name="Library version and release information"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getMajority" func="yes">
+			<Overload retVal="void" >
+				<Param name="Majority of variables"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getName" func="yes">
+			<Overload retVal="void" >
+				<Param name="Name of Common Data Format (CDF) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getNumAttrEntries" func="yes">
+			<Overload retVal="void" >
+				<Param name="Number of entries for attribute with variable scope"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getNumAttrgEntries" func="yes">
+			<Overload retVal="void" >
+				<Param name="Number of entries for attribute with global scope"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getNumAttributes" func="yes">
+			<Overload retVal="void" >
+				<Param name="Number of attributes with variable scope"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getNumgAttributes" func="yes">
+			<Overload retVal="void" >
+				<Param name="Number of attributes with global scope"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getReadOnlyMode" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read-only mode"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getStageCacheSize" func="yes">
+			<Overload retVal="void" >
+				<Param name="Number of cache buffers for staging"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getValidate" func="yes">
+			<Overload retVal="void" >
+				<Param name="Library validation mode"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getVarAllocRecords" func="yes">
+			<Overload retVal="void" >
+				<Param name="Number of records allocated for variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getVarBlockingFactor" func="yes">
+			<Overload retVal="void" >
+				<Param name="Blocking factor for variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getVarCacheSize" func="yes">
+			<Overload retVal="void" >
+				<Param name="Number of multifile cache buffers"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getVarCompression" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about compression used by variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getVarData" func="yes">
+			<Overload retVal="void" >
+				<Param name="Single value from record in variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getVarMaxAllocRecNum" func="yes">
+			<Overload retVal="void" >
+				<Param name="Maximum allocated record number for variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getVarMaxWrittenRecNum" func="yes">
+			<Overload retVal="void" >
+				<Param name="Maximum written record number for variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getVarName" func="yes">
+			<Overload retVal="void" >
+				<Param name="Variable name, given variable number"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getVarNum" func="yes">
+			<Overload retVal="void" >
+				<Param name="Variable number, given variable name"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getVarNumRecsWritten" func="yes">
+			<Overload retVal="void" >
+				<Param name="Number of records written to variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getVarPadValue" func="yes">
+			<Overload retVal="void" >
+				<Param name="Pad value for variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getVarRecordData" func="yes">
+			<Overload retVal="void" >
+				<Param name="Entire record for variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getVarReservePercent" func="yes">
+			<Overload retVal="void" >
+				<Param name="Compression reserve percentage for variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getVarSparseRecords" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about how variable handles sparse records"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getVarsMaxWrittenRecNum" func="yes">
+			<Overload retVal="void" >
+				<Param name="Maximum written record number for CDF file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.getVersion" func="yes">
+			<Overload retVal="void" >
+				<Param name="Common Data Format (CDF) library version and release information"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.hyperGetVarData" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read hyperslab of data from variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.hyperPutVarData" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write hyperslab of data to variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.inquire" func="yes">
+			<Overload retVal="void" >
+				<Param name="Basic characteristics of Common Data Format (CDF) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.inquireAttr" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.inquireAttrEntry" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about entry in attribute with variable scope"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.inquireAttrgEntry" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about entry in attribute with global scope"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.inquireVar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.open" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open existing Common Data Format (CDF) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.putAttrEntry" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write value to entry in attribute with variable scope"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.putAttrgEntry" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write value to entry in attribute with global scope"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.putVarData" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write single value to variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.putVarRecordData" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write entire record to variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.renameAttr" func="yes">
+			<Overload retVal="void" >
+				<Param name="Rename existing attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.renameVar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Rename existing variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setCacheSize" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify number of dotCDF cache buffers"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setChecksum" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify checksum mode"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setCompression" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify compression settings"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setCompressionCacheSize" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify number of compression cache buffers"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setFileBackward" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set backward compatibility mode"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setFormat" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify format of Common Data Format (CDF) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setMajority" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify majority of variables"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setReadOnlyMode" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify read-only mode"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setStageCacheSize" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify number of staging cache buffers for Common Data Format (CDF) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setValidate" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify library validation mode"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setVarAllocBlockRecords" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify range of records to be allocated for variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setVarBlockingFactor" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify blocking factor for variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setVarCacheSize" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify number of multi-file cache buffers for variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setVarCompression" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify compression settings used with variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setVarInitialRecs" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify initial number of records written to variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setVarPadValue" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify pad value used with variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setVarSparseRecords" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify how variable handles sparse records"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdflib.setVarsCacheSize" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify number of cache buffers used for all variables"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdfread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read data from Common Data Format (CDF) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cdfwrite" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write data to Common Data Format (CDF) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cell" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create cell array"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="checkcode" func="yes">
+			<Overload retVal="void" >
+				<Param name="Check MATLAB code files for possible problems"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="checkin" func="yes">
+			<Overload retVal="void" >
+				<Param name="Check files into source control system (UNIX platforms)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="checkout" func="yes">
+			<Overload retVal="void" >
+				<Param name="Check files out of source control system (UNIX platforms)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cla" func="yes">
+			<Overload retVal="void" >
+				<Param name="Clear current axes"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="clabel" func="yes">
+			<Overload retVal="void" >
+				<Param name="Contour plot elevation labels"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="class" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine class of object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="classdef" func="yes">
+			<Overload retVal="void" >
+				<Param name="Class definition keywords"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="clear" func="yes">
+			<Overload retVal="void" >
+				<Param name="Remove items from workspace, freeing up system memory"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="clear (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Remove serial port object from MATLAB workspace"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="clearvars" func="yes">
+			<Overload retVal="void" >
+				<Param name="Clear variables from memory"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="clf" func="yes">
+			<Overload retVal="void" >
+				<Param name="Clear current figure window"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="clipboard" func="yes">
+			<Overload retVal="void" >
+				<Param name="Copy and paste strings to and from system clipboard"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="close" func="yes">
+			<Overload retVal="void" >
+				<Param name="Close Audio/Video Interleaved (AVI) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="closereq" func="yes">
+			<Overload retVal="void" >
+				<Param name="Default figure close request function"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cmopts" func="yes">
+			<Overload retVal="void" >
+				<Param name="Name of source control system"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cmpermute" func="yes">
+			<Overload retVal="void" >
+				<Param name="Rearrange colors in colormap"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cmunique" func="yes">
+			<Overload retVal="void" >
+				<Param name="Eliminate duplicate colors in colormap; convert grayscale or truecolor image to indexed image"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="colorbar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Colorbar showing color scale"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="colordef" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set default property values to display different color schemes"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="colormap" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set and get current colormap"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="colormapeditor" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open colormap editor"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="comet" func="yes">
+			<Overload retVal="void" >
+				<Param name="2-D comet plot"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="comet3" func="yes">
+			<Overload retVal="void" >
+				<Param name="3-D comet plot"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="computer" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about computer on which MATLAB software is running"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="contrast" func="yes">
+			<Overload retVal="void" >
+				<Param name="Grayscale colormap for contrast enhancement"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="copyfile" func="yes">
+			<Overload retVal="void" >
+				<Param name="Copy file or folder"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="copyobj" func="yes">
+			<Overload retVal="void" >
+				<Param name="Copy graphics objects and their descendants"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cputime" func="yes">
+			<Overload retVal="void" >
+				<Param name="Elapsed CPU time"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="createClassFromWsdl" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create MATLAB class based on WSDL document"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="createCopy" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create copy of inputParser object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="createSoapMessage" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create SOAP message to send to server"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="csvread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read comma-separated value file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="csvwrite" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write comma-separated value file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="customverctrl" func="yes">
+			<Overload retVal="void" >
+				<Param name="Allow custom source control system (UNIX platforms)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="daqread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read Data Acquisition Toolbox (.daq) file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="daspect" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set or query axes data aspect ratio"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="datacursormode" func="yes">
+			<Overload retVal="void" >
+				<Param name="Enable, disable, and manage interactive data cursor mode"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="datatipinfo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Produce short description of input variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="datetick" func="yes">
+			<Overload retVal="void" >
+				<Param name="Date formatted tick labels"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dbclear" func="yes">
+			<Overload retVal="void" >
+				<Param name="Clear breakpoints"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dbcont" func="yes">
+			<Overload retVal="void" >
+				<Param name="Resume execution"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dbdown" func="yes">
+			<Overload retVal="void" >
+				<Param name="Reverse workspace shift performed by dbup, while in debug mode"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dbmex" func="yes">
+			<Overload retVal="void" >
+				<Param name="Enable MEX-file debugging (on UNIX platforms)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dbquit" func="yes">
+			<Overload retVal="void" >
+				<Param name="Quit debug mode"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dbstack" func="yes">
+			<Overload retVal="void" >
+				<Param name="Function call stack"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dbstatus" func="yes">
+			<Overload retVal="void" >
+				<Param name="List all breakpoints"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dbstep" func="yes">
+			<Overload retVal="void" >
+				<Param name="Execute one or more lines from current breakpoint"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dbstop" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set breakpoints for debugging"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dbtype" func="yes">
+			<Overload retVal="void" >
+				<Param name="List text file with line numbers"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dbup" func="yes">
+			<Overload retVal="void" >
+				<Param name="Shift current workspace to workspace of caller, while in debug mode"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="delete" func="yes">
+			<Overload retVal="void" >
+				<Param name="Remove COM control or server"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="delete (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Remove serial port object from memory"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="delete (timer)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Remove timer object from memory"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="deleteproperty" func="yes">
+			<Overload retVal="void" >
+				<Param name="Remove custom property from COM object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="demo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Access product examples in Help browser"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="depdir" func="yes">
+			<Overload retVal="void" >
+				<Param name="List dependent folders for function or P-file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="depfun" func="yes">
+			<Overload retVal="void" >
+				<Param name="List dependencies of function or P-file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dialog" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create and display empty dialog box"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="diffuse" func="yes">
+			<Overload retVal="void" >
+				<Param name="Calculate diffuse reflectance"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dir" func="yes">
+			<Overload retVal="void" >
+				<Param name="List folder contents"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="disp" func="yes">
+			<Overload retVal="void" >
+				<Param name="Display text or array"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="disp (MException)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Display MException object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="disp (memmapfile)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about memmapfile object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="disp (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Serial port object summary information"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="disp (timer)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about timer object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="display" func="yes">
+			<Overload retVal="void" >
+				<Param name="Display text and numeric expressions"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dither" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert image, increasing apparent color resolution by dithering"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dlmread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read ASCII-delimited file of numeric data into matrix"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dlmwrite" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write matrix to ASCII-delimited file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="doc" func="yes">
+			<Overload retVal="void" >
+				<Param name="Reference page in Help browser"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="docsearch" func="yes">
+			<Overload retVal="void" >
+				<Param name="Help browser search"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dos" func="yes">
+			<Overload retVal="void" >
+				<Param name="Execute DOS command and return result"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dragrect" func="yes">
+			<Overload retVal="void" >
+				<Param name="Drag rectangles with mouse"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="drawnow" func="yes">
+			<Overload retVal="void" >
+				<Param name="Flush event queue and update figure window"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="echo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Display statements during function execution"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="echodemo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Run example script step-by-step in Command Window"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="edit" func="yes">
+			<Overload retVal="void" >
+				<Param name="Edit or create file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="else" func="yes">
+			<Overload retVal="void" >
+				<Param name="Optional keyword within an if statement"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="elseif" func="yes">
+			<Overload retVal="void" >
+				<Param name="Optional keyword within an if statement"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="empty" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create empty array"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="enableNETfromNetworkDrive" func="yes">
+			<Overload retVal="void" >
+				<Param name="Enable access to .NET commands from network drive"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="enableservice" func="yes">
+			<Overload retVal="void" >
+				<Param name="Enable, disable, or report status of MATLAB Automation server"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="end" func="yes">
+			<Overload retVal="void" >
+				<Param name="Terminate block of code, or indicate last array index"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="enumeration" func="yes">
+			<Overload retVal="void" >
+				<Param name="Display class enumeration members and names"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="eq (MException)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Compare scalar MException objects for equality"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="error" func="yes">
+			<Overload retVal="void" >
+				<Param name="Display message and abort function"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="errordlg" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create and open error dialog box"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="eval" func="yes">
+			<Overload retVal="void" >
+				<Param name="Execute MATLAB expression in text string"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="evalc" func="yes">
+			<Overload retVal="void" >
+				<Param name="Evaluate MATLAB expression with capture"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="evalin" func="yes">
+			<Overload retVal="void" >
+				<Param name="Execute MATLAB expression in specified workspace"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="eventlisteners" func="yes">
+			<Overload retVal="void" >
+				<Param name="List event handler functions associated with COM object events"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="events" func="yes">
+			<Overload retVal="void" >
+				<Param name="List of events COM object can trigger"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="exifread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read EXIF information from JPEG and TIFF image files"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="exist" func="yes">
+			<Overload retVal="void" >
+				<Param name="Check existence of variable, function, folder, or class"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="exit" func="yes">
+			<Overload retVal="void" >
+				<Param name="Terminate MATLAB program (same as quit)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="export2wsdlg" func="yes">
+			<Overload retVal="void" >
+				<Param name="Export variables to workspace"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fclose" func="yes">
+			<Overload retVal="void" >
+				<Param name="Close one or all open files"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fclose (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Disconnect serial port object from device"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="feof" func="yes">
+			<Overload retVal="void" >
+				<Param name="Test for end-of-file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ferror" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about file I/O errors"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="feval" func="yes">
+			<Overload retVal="void" >
+				<Param name="Evaluate function"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fgetl" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read line from file, removing newline characters"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fgetl (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read line of text from device and discard terminator"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fgets" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read line from file, keeping newline characters"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fgets (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read line of text from device and include terminator"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fieldnames" func="yes">
+			<Overload retVal="void" >
+				<Param name="Field names of structure, or public fields of object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="figure" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create figure graphics object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="figurepalette" func="yes">
+			<Overload retVal="void" >
+				<Param name="Show or hide Figure Palette"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fileattrib" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set or get attributes of file or folder"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="filebrowser" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open Current Folder browser, or select it if already open"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="filemarker" func="yes">
+			<Overload retVal="void" >
+				<Param name="Character to separate file name and internal function name"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fileparts" func="yes">
+			<Overload retVal="void" >
+				<Param name="Parts of file name and path"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fileread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read contents of file into string"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="filesep" func="yes">
+			<Overload retVal="void" >
+				<Param name="File separator for current platform"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="findall" func="yes">
+			<Overload retVal="void" >
+				<Param name="Find all graphics objects"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="findfigs" func="yes">
+			<Overload retVal="void" >
+				<Param name="Find visible offscreen figures"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="findobj" func="yes">
+			<Overload retVal="void" >
+				<Param name="Find handle objects matching specified conditions"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="findprop" func="yes">
+			<Overload retVal="void" >
+				<Param name="Find meta.property object associated with property name"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="finish" func="yes">
+			<Overload retVal="void" >
+				<Param name="Termination file for MATLAB program"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fitsdisp" func="yes">
+			<Overload retVal="void" >
+				<Param name="Display FITS metadata"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fitsinfo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about FITS file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fitsread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read data from FITS file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fitswrite" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write image to FITS file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fopen" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open file, or obtain information about open files"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fopen (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Connect serial port object to device"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fprintf" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write data to text file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fprintf (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write text to device"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="frame2im" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return image data associated with movie frame"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read data from binary file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fread (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read binary data from device"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="frewind" func="yes">
+			<Overload retVal="void" >
+				<Param name="Move file position indicator to beginning of open file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fscanf" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read data from text file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fscanf (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read data from device, and format as text"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fseek" func="yes">
+			<Overload retVal="void" >
+				<Param name="Move to specified position in file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ftell" func="yes">
+			<Overload retVal="void" >
+				<Param name="Position in open file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ftp" func="yes">
+			<Overload retVal="void" >
+				<Param name="Connect to FTP server"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fullfile" func="yes">
+			<Overload retVal="void" >
+				<Param name="Build full file name from parts"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fwrite" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write data to binary file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fwrite (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write binary data to device"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="gca" func="yes">
+			<Overload retVal="void" >
+				<Param name="Current axes handle"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="gcbf" func="yes">
+			<Overload retVal="void" >
+				<Param name="Handle of figure containing object whose callback is executing"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="gcbo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Handle of object whose callback is executing"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="gcf" func="yes">
+			<Overload retVal="void" >
+				<Param name="Current figure handle"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="gco" func="yes">
+			<Overload retVal="void" >
+				<Param name="Handle of current object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="genpath" func="yes">
+			<Overload retVal="void" >
+				<Param name="Generate path string"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="genvarname" func="yes">
+			<Overload retVal="void" >
+				<Param name="Construct valid variable name from string"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="get" func="yes">
+			<Overload retVal="void" >
+				<Param name="Get property value from interface, or display properties"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="get (memmapfile)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Memmapfile object properties"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="get (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Serial port object properties"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="get (timer)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Timer object properties"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getReport (MException)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Get error message for exception"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getappdata" func="yes">
+			<Overload retVal="void" >
+				<Param name="Value of application-defined data"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getaudiodata" func="yes">
+			<Overload retVal="void" >
+				<Param name="Store recorded audio signal in numeric array"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getenv" func="yes">
+			<Overload retVal="void" >
+				<Param name="Environment variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getframe" func="yes">
+			<Overload retVal="void" >
+				<Param name="Capture movie frame"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getpixelposition" func="yes">
+			<Overload retVal="void" >
+				<Param name="Get component position in pixels"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getpref" func="yes">
+			<Overload retVal="void" >
+				<Param name="Preference"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ginput" func="yes">
+			<Overload retVal="void" >
+				<Param name="Graphical input from mouse or cursor"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="global" func="yes">
+			<Overload retVal="void" >
+				<Param name="Declare global variables"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grabcode" func="yes">
+			<Overload retVal="void" >
+				<Param name="Extract MATLAB code from file published to HTML"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="graymon" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set default figure properties for grayscale monitors"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grid" func="yes">
+			<Overload retVal="void" >
+				<Param name="Grid lines for 2-D and 3-D plots"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="gtext" func="yes">
+			<Overload retVal="void" >
+				<Param name="Mouse placement of text in 2-D view"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="guidata" func="yes">
+			<Overload retVal="void" >
+				<Param name="Store or retrieve GUI data"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="guide" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open GUI Layout Editor"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="guihandles" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create structure of handles"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="gunzip" func="yes">
+			<Overload retVal="void" >
+				<Param name="Uncompress GNU zip files"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="gzip" func="yes">
+			<Overload retVal="void" >
+				<Param name="Compress files into GNU zip files"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="h5create" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create HDF5 data set"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="h5disp" func="yes">
+			<Overload retVal="void" >
+				<Param name="Display contents of HDF5 file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="h5info" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return information about HDF5 file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="h5read" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read data from HDF5 data set"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="h5readatt" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read attribute from HDF5 file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="h5write" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write to HDF5 data set"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="h5writeatt" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write HDF5 attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hdf" func="yes">
+			<Overload retVal="void" >
+				<Param name="Summary of MATLAB HDF4 capabilities"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hdf5" func="yes">
+			<Overload retVal="void" >
+				<Param name="Summary of MATLAB HDF5 capabilities"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hdf5info" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about HDF5 file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hdf5read" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read HDF5 file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hdf5write" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write data to file in HDF5 format"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hdfinfo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about HDF4 or HDF-EOS file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hdfread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read data from HDF4 or HDF-EOS file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hdftool" func="yes">
+			<Overload retVal="void" >
+				<Param name="Browse and import data from HDF4 or HDF-EOS files"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="help" func="yes">
+			<Overload retVal="void" >
+				<Param name="Help for functions in Command Window"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="helpbrowser" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open Help browser to access online documentation"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="helpdesk" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open Help browser"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="helpdlg" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create and open help dialog box"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="helpwin" func="yes">
+			<Overload retVal="void" >
+				<Param name="Provide access to help comments for all functions"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hgexport" func="yes">
+			<Overload retVal="void" >
+				<Param name="Export figure"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hggroup" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create hggroup object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hgload" func="yes">
+			<Overload retVal="void" >
+				<Param name="Load Handle Graphics object hierarchy from file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hgsave" func="yes">
+			<Overload retVal="void" >
+				<Param name="Save Handle Graphics object hierarchy to file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hgtransform" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create hgtransform graphics object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hidden" func="yes">
+			<Overload retVal="void" >
+				<Param name="Remove hidden lines from mesh plot"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hold" func="yes">
+			<Overload retVal="void" >
+				<Param name="Retain current graph when adding new graphs"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="horzcat" func="yes">
+			<Overload retVal="void" >
+				<Param name="Concatenate arrays horizontally"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hostid" func="yes">
+			<Overload retVal="void" >
+				<Param name="Server host identification number"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hsv2rgb" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert HSV colormap to RGB colormap"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="im2frame" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert image to movie frame"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="im2java" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert image to Java image"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="image" func="yes">
+			<Overload retVal="void" >
+				<Param name="Display image object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="imagesc" func="yes">
+			<Overload retVal="void" >
+				<Param name="Scale data and display image object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="imapprox" func="yes">
+			<Overload retVal="void" >
+				<Param name="Approximate indexed image by reducing number of colors"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="imfinfo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about graphics file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="imformats" func="yes">
+			<Overload retVal="void" >
+				<Param name="Manage image file format registry"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="import" func="yes">
+			<Overload retVal="void" >
+				<Param name="Add package or class to current import list"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="importdata" func="yes">
+			<Overload retVal="void" >
+				<Param name="Load data from file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="imread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read image from graphics file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="imwrite" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write image to graphics file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ind2rgb" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert indexed image to RGB image"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="inferiorto" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify inferior class relationship"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="info" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about contacting MathWorks"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="inmem" func="yes">
+			<Overload retVal="void" >
+				<Param name="Names of functions, MEX-files, Java classes in memory"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="input" func="yes">
+			<Overload retVal="void" >
+				<Param name="Request user input"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="inputParser" func="yes">
+			<Overload retVal="void" >
+				<Param name="Parse function inputs"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="inputdlg" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create and open input dialog box"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="inputname" func="yes">
+			<Overload retVal="void" >
+				<Param name="Variable name of function input"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="inspect" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open Property Inspector"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="instrcallback" func="yes">
+			<Overload retVal="void" >
+				<Param name="Event information when event occurs"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="instrfind" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read serial port objects from memory to MATLAB workspace"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="instrfindall" func="yes">
+			<Overload retVal="void" >
+				<Param name="Find visible and hidden serial port objects"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="interfaces" func="yes">
+			<Overload retVal="void" >
+				<Param name="List custom interfaces exposed by COM server object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="invoke" func="yes">
+			<Overload retVal="void" >
+				<Param name="Invoke method on COM object or interface, or display methods"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isa" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine if input is object of specified class"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isappdata" func="yes">
+			<Overload retVal="void" >
+				<Param name="True if application-defined data exists"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="iscom" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine whether input is COM or ActiveX object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isdir" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine whether input is folder"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isequal" func="yes">
+			<Overload retVal="void" >
+				<Param name="Test arrays for equality"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isequal (MException)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Compare scalar MException objects for equality"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isevent" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine whether input is COM object event"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isglobal" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine whether input is global variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ishandle" func="yes">
+			<Overload retVal="void" >
+				<Param name="Test for valid graphics object handle"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ishold" func="yes">
+			<Overload retVal="void" >
+				<Param name="Current hold state"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isinterface" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine whether input is COM interface"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isjava" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine whether input is Java object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ismac" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine if version is for Mac OS X platform"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ismethod" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine whether input is COM object method"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isobject" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine if input is MATLAB object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ispc" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine if version is for Windows (PC) platform"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ispref" func="yes">
+			<Overload retVal="void" >
+				<Param name="Test for existence of preference"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isprop" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine whether input is COM object property"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isstudent" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine if version is Student Version"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isunix" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine if version is for UNIX platform"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isvalid" func="yes">
+			<Overload retVal="void" >
+				<Param name="Is object valid handle class object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isvalid (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine whether serial port objects are valid"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isvalid (timer)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine whether timer object is valid"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isvarname" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine whether input is valid variable name"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="javaArray" func="yes">
+			<Overload retVal="void" >
+				<Param name="Construct Java array"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="javaMethod" func="yes">
+			<Overload retVal="void" >
+				<Param name="Invoke Java method"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="javaMethodEDT" func="yes">
+			<Overload retVal="void" >
+				<Param name="Invoke Java method from Event Dispatch Thread (EDT)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="javaObject" func="yes">
+			<Overload retVal="void" >
+				<Param name="Invoke Java constructor"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="javaObjectEDT" func="yes">
+			<Overload retVal="void" >
+				<Param name="Java object constructor on Event Dispatch Thread (EDT)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="javaaddpath" func="yes">
+			<Overload retVal="void" >
+				<Param name="Add entries to dynamic Java class path"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="javachk" func="yes">
+			<Overload retVal="void" >
+				<Param name="Generate error message based on Java feature support"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="javaclasspath" func="yes">
+			<Overload retVal="void" >
+				<Param name="Get and set Java class path"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="javarmpath" func="yes">
+			<Overload retVal="void" >
+				<Param name="Remove entries from dynamic Java class path"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="keyboard" func="yes">
+			<Overload retVal="void" >
+				<Param name="Input from keyboard"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="last (MException)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Last uncaught exception"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="lasterr" func="yes">
+			<Overload retVal="void" >
+				<Param name="Last error message"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="lasterror" func="yes">
+			<Overload retVal="void" >
+				<Param name="Last error message and related information"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="lastwarn" func="yes">
+			<Overload retVal="void" >
+				<Param name="Last warning message"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="legend" func="yes">
+			<Overload retVal="void" >
+				<Param name="Graph legend for lines and patches"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="length (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Length of serial port object array"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="libfunctions" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return information on functions in shared library"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="libfunctionsview" func="yes">
+			<Overload retVal="void" >
+				<Param name="Display shared library function signatures in window"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="libisloaded" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine if shared library is loaded"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="libpointer" func="yes">
+			<Overload retVal="void" >
+				<Param name="Pointer object for use with shared library"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="libstruct" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert MATLAB structure to C-style structure for use with shared library"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="license" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return license number or perform licensing task"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="light" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create light object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="lightangle" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create or position light object in spherical coordinates"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="lighting" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify lighting algorithm"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="lin2mu" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert linear audio signal to mu-law"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="line" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create line object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="linkaxes" func="yes">
+			<Overload retVal="void" >
+				<Param name="Synchronize limits of specified 2-D axes"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="linkdata" func="yes">
+			<Overload retVal="void" >
+				<Param name="Automatically update graphs when variables change"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="linkprop" func="yes">
+			<Overload retVal="void" >
+				<Param name="Keep same value for corresponding properties of graphics objects"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="listdlg" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create and open list-selection dialog box"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="listfonts" func="yes">
+			<Overload retVal="void" >
+				<Param name="List available system fonts"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="load" func="yes">
+			<Overload retVal="void" >
+				<Param name="Initialize control object from file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="load (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Load serial port objects and variables into MATLAB workspace"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="loadlibrary" func="yes">
+			<Overload retVal="void" >
+				<Param name="Load shared library into MATLAB"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="loadobj" func="yes">
+			<Overload retVal="void" >
+				<Param name="Modify load process for object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="lookfor" func="yes">
+			<Overload retVal="void" >
+				<Param name="Search for keyword in all help entries"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ls" func="yes">
+			<Overload retVal="void" >
+				<Param name="List folder contents"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="makehgtform" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create 4-by-4 transform matrix"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="material" func="yes">
+			<Overload retVal="void" >
+				<Param name="Control reflectance properties of surfaces and patches"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matfile" func="yes">
+			<Overload retVal="void" >
+				<Param name="Load and save parts of variables in MAT-files"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matlab (UNIX)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Start MATLAB program (UNIX platforms)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matlab (Windows)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Start MATLAB program (Windows platforms)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matlab.apputil.create" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create or modify app project file for packaging app into .mlappinstall file using interactive dialog box"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matlab.apputil.getInstalledAppInfo" func="yes">
+			<Overload retVal="void" >
+				<Param name="List installed app information"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matlab.apputil.install" func="yes">
+			<Overload retVal="void" >
+				<Param name="Install app from a .mlappinstall file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matlab.apputil.package" func="yes">
+			<Overload retVal="void" >
+				<Param name="Package app files into .mlappinstall file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matlab.apputil.run" func="yes">
+			<Overload retVal="void" >
+				<Param name="Run app programmatically"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matlab.apputil.uninstall" func="yes">
+			<Overload retVal="void" >
+				<Param name="Uninstall app"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matlabrc" func="yes">
+			<Overload retVal="void" >
+				<Param name="Startup file for MATLAB program"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matlabroot" func="yes">
+			<Overload retVal="void" >
+				<Param name="Root folder"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="memmapfile" func="yes">
+			<Overload retVal="void" >
+				<Param name="Construct memmapfile object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="memory" func="yes">
+			<Overload retVal="void" >
+				<Param name="Display memory information"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="menu" func="yes">
+			<Overload retVal="void" >
+				<Param name="Generate menu of choices for user input"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="meta.class.fromName" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return meta.class object associated with named class"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="meta.package.fromName" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return meta.package object for specified package"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="meta.package.getAllPackages" func="yes">
+			<Overload retVal="void" >
+				<Param name="Get all top-level packages"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="metaclass" func="yes">
+			<Overload retVal="void" >
+				<Param name="Obtain meta.class object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="methods" func="yes">
+			<Overload retVal="void" >
+				<Param name="Class method names"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="methodsview" func="yes">
+			<Overload retVal="void" >
+				<Param name="View class methods"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mex" func="yes">
+			<Overload retVal="void" >
+				<Param name="Compile MEX-function from C/C++ or Fortran source code"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mex.getCompilerConfigurations" func="yes">
+			<Overload retVal="void" >
+				<Param name="Get compiler configuration information for building MEX-files"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mexext" func="yes">
+			<Overload retVal="void" >
+				<Param name="Binary MEX-file name extension"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mfilename" func="yes">
+			<Overload retVal="void" >
+				<Param name="File name of currently running function"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mislocked" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine if function is locked in memory"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mkdir" func="yes">
+			<Overload retVal="void" >
+				<Param name="Make new folder"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mlint" func="yes">
+			<Overload retVal="void" >
+				<Param name="Check MATLAB code files for possible problems"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mlintrpt" func="yes">
+			<Overload retVal="void" >
+				<Param name="Run checkcode for file or folder, reporting results in browser"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mlock" func="yes">
+			<Overload retVal="void" >
+				<Param name="Prevent clearing function from memory"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mmfileinfo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about multimedia file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mmreader" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create object for reading video files"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="move" func="yes">
+			<Overload retVal="void" >
+				<Param name="Move or resize control in parent window"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="movefile" func="yes">
+			<Overload retVal="void" >
+				<Param name="Move file or folder"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="movegui" func="yes">
+			<Overload retVal="void" >
+				<Param name="Move GUI figure to specified location on screen"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="movie" func="yes">
+			<Overload retVal="void" >
+				<Param name="Play recorded movie frames"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="movie2avi" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create Audio/Video Interleaved (AVI) file from MATLAB movie"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="msgbox" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create and open message box"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mu2lin" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert mu-law audio signal to linear"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="multibandread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read band-interleaved data from binary file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="multibandwrite" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write band-interleaved data to file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="munlock" func="yes">
+			<Overload retVal="void" >
+				<Param name="Allow clearing functions from memory"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="namelengthmax" func="yes">
+			<Overload retVal="void" >
+				<Param name="Maximum identifier length"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="nargchk" func="yes">
+			<Overload retVal="void" >
+				<Param name="Validate number of input arguments"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="nargin" func="yes">
+			<Overload retVal="void" >
+				<Param name="Number of function input arguments"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="narginchk" func="yes">
+			<Overload retVal="void" >
+				<Param name="Validate number of input arguments"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="nargout" func="yes">
+			<Overload retVal="void" >
+				<Param name="Number of function output arguments"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="nargoutchk" func="yes">
+			<Overload retVal="void" >
+				<Param name="Validate number of output arguments"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="nccreate" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create variable in NetCDF file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ncdisp" func="yes">
+			<Overload retVal="void" >
+				<Param name="Display contents of NetCDF data source in Command Window"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ncinfo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return information about NetCDF data source"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ncread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read data from variable in NetCDF data source"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ncreadatt" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read attribute value from NetCDF data source"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ncwrite" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write data to NetCDF file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ncwriteatt" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write attribute to NetCDF file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ncwriteschema" func="yes">
+			<Overload retVal="void" >
+				<Param name="Add NetCDF schema definitions to NetCDF file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ne (MException)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Compare scalar MException objects for inequality"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf" func="yes">
+			<Overload retVal="void" >
+				<Param name="Summary of MATLAB Network Common Data Form (NetCDF) capabilities"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.abort" func="yes">
+			<Overload retVal="void" >
+				<Param name="Revert recent netCDF file definitions"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.close" func="yes">
+			<Overload retVal="void" >
+				<Param name="Close netCDF file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.copyAtt" func="yes">
+			<Overload retVal="void" >
+				<Param name="Copy attribute to new location"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.create" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create new NetCDF dataset"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.defDim" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create netCDF dimension"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.defGrp" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create group in NetCDF file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.defVar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create NetCDF variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.defVarChunking" func="yes">
+			<Overload retVal="void" >
+				<Param name="Define chunking behavior for NetCDF variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.defVarDeflate" func="yes">
+			<Overload retVal="void" >
+				<Param name="Define compression parameters for NetCDF variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.defVarFill" func="yes">
+			<Overload retVal="void" >
+				<Param name="Define fill parameters for NetCDF variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.defVarFletcher32" func="yes">
+			<Overload retVal="void" >
+				<Param name="Define checksum parameters for NetCDF variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.delAtt" func="yes">
+			<Overload retVal="void" >
+				<Param name="Delete netCDF attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.endDef" func="yes">
+			<Overload retVal="void" >
+				<Param name="End netCDF file define mode"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.getAtt" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return netCDF attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.getChunkCache" func="yes">
+			<Overload retVal="void" >
+				<Param name="Retrieve chunk cache settings for NetCDF library"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.getConstant" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return numeric value of named constant"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.getConstantNames" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return list of constants known to netCDF library"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.getVar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return data from netCDF variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inq" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return information about netCDF file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqAtt" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return information about netCDF attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqAttID" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return ID of netCDF attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqAttName" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return name of netCDF attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqDim" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return netCDF dimension name and length"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqDimID" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return dimension ID"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqDimIDs" func="yes">
+			<Overload retVal="void" >
+				<Param name="Retrieve list of dimension identifiers in group"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqFormat" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine format of NetCDF file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqGrpName" func="yes">
+			<Overload retVal="void" >
+				<Param name="Retrieve name of group"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqGrpNameFull" func="yes">
+			<Overload retVal="void" >
+				<Param name="Complete pathname of group"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqGrpParent" func="yes">
+			<Overload retVal="void" >
+				<Param name="Retrieve ID of parent group."/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqGrps" func="yes">
+			<Overload retVal="void" >
+				<Param name="Retrieve array of child group IDs"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqLibVers" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return NetCDF library version information"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqNcid" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return ID of named group"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqUnlimDims" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return list of unlimited dimensions in group"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqVar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return information about variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqVarChunking" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine chunking settings for NetCDF variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqVarDeflate" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine compression settings for NetCDF variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqVarFill" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine values of fill parameters for NetCDF variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqVarFletcher32" func="yes">
+			<Overload retVal="void" >
+				<Param name="Fletcher32 checksum setting for NetCDF variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqVarID" func="yes">
+			<Overload retVal="void" >
+				<Param name="Return ID associated with variable name"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.inqVarIDs" func="yes">
+			<Overload retVal="void" >
+				<Param name="IDs of all variables in group"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.open" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open NetCDF data source"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.putAtt" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write netCDF attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.putVar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write data to netCDF variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.reDef" func="yes">
+			<Overload retVal="void" >
+				<Param name="Put open netCDF file into define mode"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.renameAtt" func="yes">
+			<Overload retVal="void" >
+				<Param name="Change name of attribute"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.renameDim" func="yes">
+			<Overload retVal="void" >
+				<Param name="Change name of netCDF dimension"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.renameVar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Change name of netCDF variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.setChunkCache" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set default chunk cache settings for NetCDF library"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.setDefaultFormat" func="yes">
+			<Overload retVal="void" >
+				<Param name="Change default netCDF file format"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.setFill" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set netCDF fill mode"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="netcdf.sync" func="yes">
+			<Overload retVal="void" >
+				<Param name="Synchronize netCDF file to disk"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="newplot" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine where to draw graphics objects"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="noanimate" func="yes">
+			<Overload retVal="void" >
+				<Param name="Change EraseMode of all objects to normal"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="notebook" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open MATLAB Notebook in Microsoft Word software (on Microsoft Windows platforms)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="notify" func="yes">
+			<Overload retVal="void" >
+				<Param name="Notify listeners that event is occurring"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="numel" func="yes">
+			<Overload retVal="void" >
+				<Param name="Number of elements in array or subscripted array expression"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="onCleanup" func="yes">
+			<Overload retVal="void" >
+				<Param name="Cleanup tasks upon function completion"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="open" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open file in appropriate application"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="openfig" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open new copy or raise existing copy of saved figure"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="opengl" func="yes">
+			<Overload retVal="void" >
+				<Param name="Control OpenGL rendering"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="openvar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open workspace variable in Variables editor or other graphical editing tool"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="orient" func="yes">
+			<Overload retVal="void" >
+				<Param name="Hardcopy paper orientation"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="otherwise" func="yes">
+			<Overload retVal="void" >
+				<Param name="Optional keyword in switch statement"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pack" func="yes">
+			<Overload retVal="void" >
+				<Param name="Consolidate workspace memory"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pagesetupdlg" func="yes">
+			<Overload retVal="void" >
+				<Param name="Page setup dialog box"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pan" func="yes">
+			<Overload retVal="void" >
+				<Param name="Pan view of graph interactively"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="parse" func="yes">
+			<Overload retVal="void" >
+				<Param name="Parse function inputs"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="parseSoapResponse" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert response string from SOAP server into MATLAB types"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="patch" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create one or more filled polygons"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="path" func="yes">
+			<Overload retVal="void" >
+				<Param name="View or change search path"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="path2rc" func="yes">
+			<Overload retVal="void" >
+				<Param name="Save current search path to pathdef.m file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pathsep" func="yes">
+			<Overload retVal="void" >
+				<Param name="Search path separator for current platform"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pathtool" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open Set Path dialog box to view and change search path"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pbaspect" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set or query plot box aspect ratio"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pcode" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create protected function file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="perl" func="yes">
+			<Overload retVal="void" >
+				<Param name="Call Perl script using appropriate operating system executable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="persistent" func="yes">
+			<Overload retVal="void" >
+				<Param name="Define persistent variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="play" func="yes">
+			<Overload retVal="void" >
+				<Param name="Play audio from audiorecorder object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="playblocking" func="yes">
+			<Overload retVal="void" >
+				<Param name="Play audio from audioplayer object, holding control until playback completes"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="plotbrowser" func="yes">
+			<Overload retVal="void" >
+				<Param name="Show or hide figure Plot Browser"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="plotedit" func="yes">
+			<Overload retVal="void" >
+				<Param name="Interactively edit and annotate plots"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="plottools" func="yes">
+			<Overload retVal="void" >
+				<Param name="Show or hide plot tools"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prefdir" func="yes">
+			<Overload retVal="void" >
+				<Param name="Folder containing preferences, history, and layout files"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="preferences" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open Preferences dialog box"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="print" func="yes">
+			<Overload retVal="void" >
+				<Param name="Print figure or save to file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="printdlg" func="yes">
+			<Overload retVal="void" >
+				<Param name="Print dialog box"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="printopt" func="yes">
+			<Overload retVal="void" >
+				<Param name="Configure printer defaults"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="printpreview" func="yes">
+			<Overload retVal="void" >
+				<Param name="Preview figure to print"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="profile" func="yes">
+			<Overload retVal="void" >
+				<Param name="Profile execution time for function"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="profsave" func="yes">
+			<Overload retVal="void" >
+				<Param name="Save profile report in HTML format"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="propedit" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open built-in property page for control"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="properties" func="yes">
+			<Overload retVal="void" >
+				<Param name="Class property names"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="propertyeditor" func="yes">
+			<Overload retVal="void" >
+				<Param name="Show or hide Property Editor"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="publish" func="yes">
+			<Overload retVal="void" >
+				<Param name="Generate view of MATLAB file in specified format"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pwd" func="yes">
+			<Overload retVal="void" >
+				<Param name="Identify current folder"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="questdlg" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create and open question dialog box"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="quit" func="yes">
+			<Overload retVal="void" >
+				<Param name="Terminate MATLAB program"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rbbox" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create rubberband box for area selection"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="readasync" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read data asynchronously from device"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="record" func="yes">
+			<Overload retVal="void" >
+				<Param name="Record data and event information to file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="recordblocking" func="yes">
+			<Overload retVal="void" >
+				<Param name="Record audio to audiorecorder object, holding control until recording completes"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rectangle" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create 2-D rectangle object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="recycle" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set option to move deleted files to recycle folder"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="refresh" func="yes">
+			<Overload retVal="void" >
+				<Param name="Redraw current figure"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="refreshdata" func="yes">
+			<Overload retVal="void" >
+				<Param name="Refresh data in graph when data source is specified"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="registerevent" func="yes">
+			<Overload retVal="void" >
+				<Param name="Associate event handler for COM object event at run time"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rehash" func="yes">
+			<Overload retVal="void" >
+				<Param name="Refresh function and file system path caches"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="relationaloperators" func="yes">
+			<Overload retVal="void" >
+				<Param name="Equality and sorting of handle objects"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="release" func="yes">
+			<Overload retVal="void" >
+				<Param name="Release COM interface"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="reset" func="yes">
+			<Overload retVal="void" >
+				<Param name="Reset graphics object properties to their defaults"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="restoredefaultpath" func="yes">
+			<Overload retVal="void" >
+				<Param name="Restore default search path"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rethrow (MException)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Reissue existing exception"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rgb2hsv" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert RGB colormap to HSV colormap"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rgb2ind" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert RGB image to indexed image"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rgbplot" func="yes">
+			<Overload retVal="void" >
+				<Param name="Plot colormap"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rmappdata" func="yes">
+			<Overload retVal="void" >
+				<Param name="Remove application-defined data"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rmdir" func="yes">
+			<Overload retVal="void" >
+				<Param name="Remove folder"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rmpath" func="yes">
+			<Overload retVal="void" >
+				<Param name="Remove folders from search path"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rmpref" func="yes">
+			<Overload retVal="void" >
+				<Param name="Remove preference"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="root object" func="yes">
+			<Overload retVal="void" >
+				<Param name="Root"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rotate" func="yes">
+			<Overload retVal="void" >
+				<Param name="Rotate object about specified origin and direction"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rotate3d" func="yes">
+			<Overload retVal="void" >
+				<Param name="Rotate 3-D view using mouse"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="run" func="yes">
+			<Overload retVal="void" >
+				<Param name="Run MATLAB script"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="save" func="yes">
+			<Overload retVal="void" >
+				<Param name="Serialize control object to file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="save (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Save serial port objects and variables to file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="saveas" func="yes">
+			<Overload retVal="void" >
+				<Param name="Save figure or Simulink block diagram using specified format"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="saveobj" func="yes">
+			<Overload retVal="void" >
+				<Param name="Modify save process for object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="savepath" func="yes">
+			<Overload retVal="void" >
+				<Param name="Save current search path"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="script" func="yes">
+			<Overload retVal="void" >
+				<Param name="Sequence of MATLAB statements in file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="selectmoveresize" func="yes">
+			<Overload retVal="void" >
+				<Param name="Select, move, resize, or copy axes and uicontrol graphics objects"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sendmail" func="yes">
+			<Overload retVal="void" >
+				<Param name="Send email message to address list"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="serial" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create serial port object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="serialbreak" func="yes">
+			<Overload retVal="void" >
+				<Param name="Send break to device connected to serial port"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="set" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set object or interface property to specified value"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="set (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Configure or display serial port object properties"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="set (timer)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Configure or display timer object properties"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setappdata" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify application-defined data"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setenv" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set environment variable"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setpixelposition" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set component position in pixels"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setpref" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set preference"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="shading" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set color shading properties"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="shg" func="yes">
+			<Overload retVal="void" >
+				<Param name="Show most recent graph window"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="showplottool" func="yes">
+			<Overload retVal="void" >
+				<Param name="Show or hide figure plot tool"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="size" func="yes">
+			<Overload retVal="void" >
+				<Param name="Array dimensions"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="size (serial)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Size of serial port object array"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="snapnow" func="yes">
+			<Overload retVal="void" >
+				<Param name="Force snapshot of image for inclusion in published document"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sound" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert matrix of signal data to sound"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="soundsc" func="yes">
+			<Overload retVal="void" >
+				<Param name="Scale data and play as sound"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="specular" func="yes">
+			<Overload retVal="void" >
+				<Param name="Calculate specular reflectance"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spinmap" func="yes">
+			<Overload retVal="void" >
+				<Param name="Spin colormap"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="start" func="yes">
+			<Overload retVal="void" >
+				<Param name="Start timer(s) running"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="startat" func="yes">
+			<Overload retVal="void" >
+				<Param name="Start timer(s) running at specified time"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="startup" func="yes">
+			<Overload retVal="void" >
+				<Param name="Startup file for user-defined options"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stop" func="yes">
+			<Overload retVal="void" >
+				<Param name="Stop timer(s)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stopasync" func="yes">
+			<Overload retVal="void" >
+				<Param name="Stop asynchronous read and write operations"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subplot" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create axes in tiled positions"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subsasgn" func="yes">
+			<Overload retVal="void" >
+				<Param name="Subscripted assignment"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subsindex" func="yes">
+			<Overload retVal="void" >
+				<Param name="Subscript indexing with object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subsref" func="yes">
+			<Overload retVal="void" >
+				<Param name="Redefine subscripted reference for objects"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="substruct" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create structure argument for subsasgn or subsref"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="superclasses" func="yes">
+			<Overload retVal="void" >
+				<Param name="Superclass names"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="superiorto" func="yes">
+			<Overload retVal="void" >
+				<Param name="Establish superior class relationship"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="support" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open MathWorks Technical Support Web page"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="surface" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create surface object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="system" func="yes">
+			<Overload retVal="void" >
+				<Param name="Execute operating system command and return result"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Compress files into tar file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tempdir" func="yes">
+			<Overload retVal="void" >
+				<Param name="Name of system's temporary folder"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tempname" func="yes">
+			<Overload retVal="void" >
+				<Param name="Unique name for temporary file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="texlabel" func="yes">
+			<Overload retVal="void" >
+				<Param name="Produce TeX format from character string"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create text object in current axes"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="textread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read data from text file; write to multiple outputs"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="textscan" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read formatted data from text file or string"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="textwrap" func="yes">
+			<Overload retVal="void" >
+				<Param name="Wrapped string matrix for given uicontrol"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="throw (MException)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Issue exception and terminate function"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="throwAsCaller (MException)" func="yes">
+			<Overload retVal="void" >
+				<Param name="Throw exception as if from calling function"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tic" func="yes">
+			<Overload retVal="void" >
+				<Param name="Start clock to measure performance"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="timer" func="yes">
+			<Overload retVal="void" >
+				<Param name="Construct timer object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="timerfind" func="yes">
+			<Overload retVal="void" >
+				<Param name="Find timer objects"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="timerfindall" func="yes">
+			<Overload retVal="void" >
+				<Param name="Find timer objects, including invisible objects"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="title" func="yes">
+			<Overload retVal="void" >
+				<Param name="Add title to current axes"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="toc" func="yes">
+			<Overload retVal="void" >
+				<Param name="Stop clock to measure performance"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="todatenum" func="yes">
+			<Overload retVal="void" >
+				<Param name="Convert CDF epoch object to MATLAB datenum"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="toolboxdir" func="yes">
+			<Overload retVal="void" >
+				<Param name="Root folder for specified toolbox"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="type" func="yes">
+			<Overload retVal="void" >
+				<Param name="Display contents of file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uibuttongroup" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create container object to exclusively manage radio buttons and toggle buttons"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uicontextmenu" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create context menu"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uicontrol" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create user interface control object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uigetdir" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open standard dialog box for selecting directory"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uigetfile" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open standard dialog box for retrieving files"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uigetpref" func="yes">
+			<Overload retVal="void" >
+				<Param name="Specify and conditionally open dialog box according to user preference"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uiimport" func="yes">
+			<Overload retVal="void" >
+				<Param name="Import data interactively"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uimenu" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create menus and menu items on figure windows"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uiopen" func="yes">
+			<Overload retVal="void" >
+				<Param name="Interactively select file to open and load data"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uipanel" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create panel container object"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uipushtool" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create push button on toolbar"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uiputfile" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open standard dialog box for saving files"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uiresume" func="yes">
+			<Overload retVal="void" >
+				<Param name="Resume execution of blocked program"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uisave" func="yes">
+			<Overload retVal="void" >
+				<Param name="Interactively save workspace variables to MAT-file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uisetcolor" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open standard dialog box for setting object's ColorSpec"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uisetfont" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open standard dialog box for setting object's font characteristics"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uisetpref" func="yes">
+			<Overload retVal="void" >
+				<Param name="Manage preferences used in uigetpref"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uistack" func="yes">
+			<Overload retVal="void" >
+				<Param name="Reorder visual stacking order of objects"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uitable" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create 2-D graphic table GUI component"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uitoggletool" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create toggle button on toolbar"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uitoolbar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Create toolbar on figure"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uiwait" func="yes">
+			<Overload retVal="void" >
+				<Param name="Block program execution and wait to resume"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="undocheckout" func="yes">
+			<Overload retVal="void" >
+				<Param name="Undo previous checkout from source control system (UNIX platforms)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="unix" func="yes">
+			<Overload retVal="void" >
+				<Param name="Execute UNIX command and return result"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="unloadlibrary" func="yes">
+			<Overload retVal="void" >
+				<Param name="Unload shared library from memory"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="unregisterallevents" func="yes">
+			<Overload retVal="void" >
+				<Param name="Unregister all event handlers associated with COM object events at run time"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="unregisterevent" func="yes">
+			<Overload retVal="void" >
+				<Param name="Unregister event handler associated with COM object event at run time"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="untar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Extract contents of tar file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="unzip" func="yes">
+			<Overload retVal="void" >
+				<Param name="Extract contents of zip file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="urlread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Download URL content to MATLAB string"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="urlwrite" func="yes">
+			<Overload retVal="void" >
+				<Param name="Download URL content and save to file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="usejava" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine whether Java feature is supported in MATLAB software"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="userpath" func="yes">
+			<Overload retVal="void" >
+				<Param name="View or change user portion of search path"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="validateattributes" func="yes">
+			<Overload retVal="void" >
+				<Param name="Check validity of array"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="validatestring" func="yes">
+			<Overload retVal="void" >
+				<Param name="Check validity of text string"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="varargin" func="yes">
+			<Overload retVal="void" >
+				<Param name="Variable-length input argument list"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="varargout" func="yes">
+			<Overload retVal="void" >
+				<Param name="Variable-length output argument list"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ver" func="yes">
+			<Overload retVal="void" >
+				<Param name="Version information for MathWorks products"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="verLessThan" func="yes">
+			<Overload retVal="void" >
+				<Param name="Compare toolbox version to specified version string"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="verctrl" func="yes">
+			<Overload retVal="void" >
+				<Param name="Source control actions (Windows platforms)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="version" func="yes">
+			<Overload retVal="void" >
+				<Param name="Version number for MATLAB and libraries"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="vertcat" func="yes">
+			<Overload retVal="void" >
+				<Param name="Concatenate arrays vertically"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="view" func="yes">
+			<Overload retVal="void" >
+				<Param name="Viewpoint specification"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="viewmtx" func="yes">
+			<Overload retVal="void" >
+				<Param name="View transformation matrices"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="visdiff" func="yes">
+			<Overload retVal="void" >
+				<Param name="Compare two text files, MAT-Files, binary files, Zip files, or folders"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wait" func="yes">
+			<Overload retVal="void" >
+				<Param name="Wait until timer stops running"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="waitbar" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open or update wait bar dialog box"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="waitfor" func="yes">
+			<Overload retVal="void" >
+				<Param name="Block execution and wait for event or condition"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="waitforbuttonpress" func="yes">
+			<Overload retVal="void" >
+				<Param name="Wait for key press or mouse-button click"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="warndlg" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open warning dialog box"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="warning" func="yes">
+			<Overload retVal="void" >
+				<Param name="Warning message"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wavfinfo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Information about WAVE (.wav) sound file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wavplay" func="yes">
+			<Overload retVal="void" >
+				<Param name="Play recorded sound on PC-based audio output device"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wavread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read WAVE (.wav) sound file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wavrecord" func="yes">
+			<Overload retVal="void" >
+				<Param name="Record sound using PC-based audio input device"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wavwrite" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write WAVE (.wav) sound file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="web" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open Web page or file in browser"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="what" func="yes">
+			<Overload retVal="void" >
+				<Param name="List MATLAB files in folder"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="whatsnew" func="yes">
+			<Overload retVal="void" >
+				<Param name="Release Notes"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="which" func="yes">
+			<Overload retVal="void" >
+				<Param name="Locate functions and files"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="whitebg" func="yes">
+			<Overload retVal="void" >
+				<Param name="Change axes background color"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="who" func="yes">
+			<Overload retVal="void" >
+				<Param name="List variables in workspace"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="whos" func="yes">
+			<Overload retVal="void" >
+				<Param name="List variables in workspace, with sizes and types"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="winopen" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open file in appropriate application (Windows)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="winqueryreg" func="yes">
+			<Overload retVal="void" >
+				<Param name="Item from Windows registry"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wk1finfo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine whether file contains 1-2-3 WK1 worksheet"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wk1read" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read Lotus 1-2-3 WK1 spreadsheet file into matrix"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wk1write" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write matrix to Lotus 1-2-3 WK1 spreadsheet file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="workspace" func="yes">
+			<Overload retVal="void" >
+				<Param name="Open Workspace browser to manage workspace"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="xlabel" func="yes">
+			<Overload retVal="void" >
+				<Param name="Label x-axis"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="xlim" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set or query x-axis limits"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="xlsfinfo" func="yes">
+			<Overload retVal="void" >
+				<Param name="Determine whether file contains Microsoft Excel spreadsheet"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="xlsread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read Microsoft Excel spreadsheet file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="xlswrite" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write Microsoft Excel spreadsheet file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="xmlread" func="yes">
+			<Overload retVal="void" >
+				<Param name="Read XML document and return Document Object Model node"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="xmlwrite" func="yes">
+			<Overload retVal="void" >
+				<Param name="Write XML Document Object Model node"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="xslt" func="yes">
+			<Overload retVal="void" >
+				<Param name="Transform XML document using XSLT engine"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ylabel" func="yes">
+			<Overload retVal="void" >
+				<Param name="Label y-axis"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ylim" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set or query y-axis limits"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="zip" func="yes">
+			<Overload retVal="void" >
+				<Param name="Compress files into zip file"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="zlabel" func="yes">
+			<Overload retVal="void" >
+				<Param name="Label z-axis"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="zlim" func="yes">
+			<Overload retVal="void" >
+				<Param name="Set or query z-axis limits"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="zoom" func="yes">
+			<Overload retVal="void" >
+				<Param name="Turn zooming on or off or magnify by factor"/>
+			</Overload>
+		</KeyWord>
+	</AutoComplete>
+</NotepadPlus>
