@@ -16,7 +16,10 @@ What I want to do next?
 How to use it?
 ==========================
 把matlab.xml文件放在$notepad_home/plugin/API文件夹下，开启notepat++函数自动补全即可看到效果；
-如果你想制作自己的自动补全，(大部分语言都是支持的)
+
+如果你想制作自己的自动补全，(大部分语言都是支持的),那么模仿funciton_list_example.list里面的内
+
+容进行，注意'\t'.
 
 Can you join me?
 ===========================
