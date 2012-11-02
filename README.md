@@ -13,6 +13,11 @@ What I want to do next?
 以用自动补全实现。twins曾今改造过checkstyle，使用过antlr，里面的tokens分析很受启发,twins想通过拓展
 一个python词法库，来实现这个功能。
 
+How to use it?
+==========================
+把matlab.xml文件放在$notepad_home/plugin/API文件夹下，开启notepat++函数自动补全即可看到效果；
+如果你想制作自己的自动补全，(大部分语言都是支持的)
+
 Can you join me?
 ===========================
 
