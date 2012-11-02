@@ -82,7 +82,7 @@ class File:
 				
 				#It's the split we can find
 				if len(stringtemp) == 2:
-					dict_of_function[stringtemp[0].lower()]=stringtemp[1]
+					dict_of_function[stringtemp[0]]=stringtemp[1]
 			else:
 				break
 		f.close()
