@@ -1,0 +1,107 @@
+©À©¤localization
+©À©¤plugins
+©¦  ©À©¤disabled
+©¦  ©À©¤APIs
+©¦  ©À©¤doc
+©¦  ©¦  ©À©¤NppFTP
+©¦  ©¦  ©À©¤PythonScript
+©¦  ©¦  ©¸©¤XBrackets
+©¦  ©À©¤Config
+©¦  ©À©¤Source
+©¦  ©À©¤NppScripting
+©¦  ©¦  ©¸©¤includes
+©¦  ©À©¤PythonScript
+©¦  ©¦  ©À©¤lib
+©¦  ©¦  ©¦  ©À©¤bsddb
+©¦  ©¦  ©¦  ©À©¤compiler
+©¦  ©¦  ©¦  ©À©¤ctypes
+©¦  ©¦  ©¦  ©¦  ©¸©¤macholib
+©¦  ©¦  ©¦  ©À©¤curses
+©¦  ©¦  ©¦  ©À©¤email
+©¦  ©¦  ©¦  ©¦  ©¸©¤mime
+©¦  ©¦  ©¦  ©À©¤encodings
+©¦  ©¦  ©¦  ©À©¤hotshot
+©¦  ©¦  ©¦  ©À©¤idlelib
+©¦  ©¦  ©¦  ©¦  ©¸©¤Icons
+©¦  ©¦  ©¦  ©À©¤importlib
+©¦  ©¦  ©¦  ©À©¤json
+©¦  ©¦  ©¦  ©À©¤lib-tk
+©¦  ©¦  ©¦  ©À©¤lib2to3
+©¦  ©¦  ©¦  ©¦  ©À©¤fixes
+©¦  ©¦  ©¦  ©¦  ©¸©¤pgen2
+©¦  ©¦  ©¦  ©À©¤logging
+©¦  ©¦  ©¦  ©À©¤msilib
+©¦  ©¦  ©¦  ©À©¤multiprocessing
+©¦  ©¦  ©¦  ©¦  ©¸©¤dummy
+©¦  ©¦  ©¦  ©À©¤pydoc_data
+©¦  ©¦  ©¦  ©À©¤sqlite3
+©¦  ©¦  ©¦  ©À©¤subnormal
+©¦  ©¦  ©¦  ©À©¤unittest
+©¦  ©¦  ©¦  ©À©¤wsgiref
+©¦  ©¦  ©¦  ©¸©¤xml
+©¦  ©¦  ©¦      ©À©¤dom
+©¦  ©¦  ©¦      ©À©¤etree
+©¦  ©¦  ©¦      ©À©¤parsers
+©¦  ©¦  ©¦      ©¸©¤sax
+©¦  ©¦  ©¸©¤scripts
+©¦  ©¦      ©¸©¤Samples
+©¦  ©À©¤Convert2HTML
+©¦  ©¸©¤src
+©¦      ©À©¤ccompletion
+©¦      ©¸©¤exuberant ctags
+©¦          ©¸©¤gnu_regex
+©À©¤updater
+©À©¤themes
+©¸©¤user.manual
+    ©À©¤Images
+    ©¦  ©À©¤Screenshots
+    ©¦  ©¸©¤Toolbar
+    ©À©¤documentation
+    ©¦  ©À©¤document-properties
+    ©¦  ©¸©¤notepad-user-manual
+    ©¦      ©À©¤display
+    ©¦      ©À©¤document-properties
+    ©¦      ©À©¤editing
+    ©¦      ©À©¤file-management
+    ©¦      ©À©¤further-help
+    ©¦      ©À©¤gui-elements
+    ©¦      ©À©¤languages
+    ©¦      ©À©¤searching
+    ©¦      ©À©¤session-management
+    ©¦      ©À©¤settings
+    ©¦      ©¸©¤switching-between-documents
+    ©À©¤misc
+    ©À©¤modules
+    ©¦  ©À©¤book
+    ©¦  ©À©¤node
+    ©¦  ©À©¤system
+    ©¦  ©¸©¤user
+    ©À©¤sites
+    ©¦  ©À©¤all
+    ©¦  ©¦  ©À©¤css
+    ©¦  ©¦  ©À©¤images
+    ©¦  ©¦  ©À©¤modules
+    ©¦  ©¦  ©¦  ©À©¤captcha
+    ©¦  ©¦  ©¦  ©À©¤cck
+    ©¦  ©¦  ©¦  ©¦  ©À©¤modules
+    ©¦  ©¦  ©¦  ©¦  ©¦  ©¸©¤fieldgroup
+    ©¦  ©¦  ©¦  ©¦  ©¸©¤theme
+    ©¦  ©¦  ©¦  ©À©¤ckeditor
+    ©¦  ©¦  ©¦  ©À©¤dhtml_menu
+    ©¦  ©¦  ©¦  ©À©¤fancy_login
+    ©¦  ©¦  ©¦  ©¦  ©À©¤css
+    ©¦  ©¦  ©¦  ©¦  ©À©¤images
+    ©¦  ©¦  ©¦  ©¦  ©¸©¤scripts
+    ©¦  ©¦  ©¦  ©À©¤feedback
+    ©¦  ©¦  ©¦  ©¦  ©¸©¤images
+    ©¦  ©¦  ©¦  ©¸©¤views
+    ©¦  ©¦  ©¦      ©À©¤css
+    ©¦  ©¦  ©¦      ©¸©¤images
+    ©¦  ©¦  ©¸©¤themes
+    ©¦  ©¦      ©¸©¤acquia_marina
+    ©¦  ©¦          ©À©¤icons
+    ©¦  ©¦          ©À©¤images
+    ©¦  ©¦          ©¸©¤theme_settings
+    ©¦  ©¸©¤default
+    ©¦      ©¸©¤files
+    ©¸©¤user
